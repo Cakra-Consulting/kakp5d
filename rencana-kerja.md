@@ -1,13 +1,11 @@
-**Rencana Kerja Penyiapan Dokumen & Materi Program "Desa Mandiri Sejahtera"**
+# Rencana Kerja Penyiapan Dokumen & Materi Program "Akselerator Bisnis Komunitas Desa"
 
 ### **Tahap 1: Persiapan Tim & Perencanaan Awal (Minggu 1-2)**
+
 #### **Aktivitas:**
-1. **Pembentukan Tim Inti**
-   - Manajer Program: Koordinator utama
-   - Tim Kreatif (2 orang): Desainer, spesialis konten
-   - Tim Teknis (2 orang): Penyusun modul, ahli kebijakan
-   - Tim Legal/Admin (1 orang): Penyusun dokumen administratif
-   - Tim Dokumentasi (1 orang): Fotografer/videografer
+
+1. **Pembentukan Tim Inti (Estimasi 4-5 Orang)**
+   - Tim inti akan terdiri dari peran gabungan sesuai kebutuhan, dengan estimasi 4-5 orang pelaksana. Peran dapat mencakup: Manajer Program, Ahli Pengembangan Usaha/Fasilitator Utama, Ahli Legal/Administrasi/Dokumentasi, dan Spesialis Teknis/Lapangan (jika diperlukan).
 
 2. **Lokakarya Perencanaan**
    - Pemetaan dokumen prioritas berdasarkan:
@@ -17,23 +15,26 @@
    - Penyusunan timeline terperinci
 
 #### **Output:**
+
 - Matriks prioritas dokumen
 - Rencana alokasi sumber daya
-- Gantt chart timeline 12 minggu
+- Gantt chart timeline 16 minggu (disesuaikan dengan durasi rencana kerja)
 
 ---
 
 ### **Tahap 2: Pengembangan Materi Inti (Minggu 3-6)**
+
 #### **Aktivitas & Timeline:**
 
-| Minggu | Fokus | Dokumen/Materi | Tim Penanggung Jawab | Output Target |
-|--------|-------|----------------|-----------------------|---------------|
-| **3**  | **Pemasaran** | - Executive Summary<br>- Brosur Digital<br>- Template Media Sosial | Tim Kreatif + Manajer | 3 dokumen siap review |
-| **4**  | **Legal** | - Template MoU<br>- Formulir Pendaftaran<br>- Surat Penawaran | Tim Legal/Admin | Dokumen draft hukum |
-| **5**  | **Teknis** | - Modul Webinar<br>- Panduan Fasilitator Workshop<br>- Assessment Tool | Tim Teknis | Modul dasar siap uji |
-| **6**  | **Pilot** | - Kriteria Desa Pilot<br>- Rencana Implementasi<br>- Instrumen Monitoring | Tim Teknis + Manajer | Paket persiapan pilot |
+| Minggu | Fokus | Dokumen/Materi | Tim Penanggung Jawab (Peran Gabungan) | Output Target |
+|--------|-------|----------------|---------------------------------------|---------------|
+| **3**  | **Pemasaran** | - Executive Summary<br>- Brosur Digital<br>- Template Media Sosial | Ahli Pengembangan Usaha + Ahli Legal/Admin/Dokumentasi + Manajer | 3 dokumen siap review |
+| **4**  | **Legal** | - Template MoU<br>- Formulir Pendaftaran<br>- Surat Penawaran | Ahli Legal/Administrasi/Dokumentasi | Dokumen draft hukum |
+| **5**  | **Teknis** | - Modul Webinar<br>- Panduan Fasilitator Workshop<br>- Assessment Tool | Ahli Pengembangan Usaha + Spesialis Teknis/Lapangan (jika relevan) | Modul dasar siap uji |
+| **6**  | **Pilot** | - Kriteria Desa Pilot<br>- Rencana Implementasi<br>- Instrumen Monitoring | Ahli Pengembangan Usaha + Spesialis Teknis/Lapangan (jika relevan) + Manajer | Paket persiapan pilot |
 
 #### **Proses Kerja:**
+
 1. **Sprint Development** (3 hari pembuatan, 2 hari review internal)
 2. **Cross-Check** dengan TOR program
 3. **Validasi Konten** oleh ahli sektor (pertanian, wisata, UMKM)
@@ -41,7 +42,9 @@
 ---
 
 ### **Tahap 3: Finalisasi & Uji Coba (Minggu 7-8)**
+
 #### **Aktivitas:**
+
 1. **Uji Coba Materi** (2 desa percontohan):
    - Simulasi webinar dengan 10 peserta
    - Uji coba formulir pendaftaran
@@ -58,6 +61,7 @@
    - Setup sistem database online
 
 #### **Output:**
+
 - Paket dokumen final (hardcopy + digital)
 - Video profil 3 menit
 - Sistem pendaftaran online terintegrasi
@@ -65,7 +69,9 @@
 ---
 
 ### **Tahap 4: Peluncuran & Pemasaran (Minggu 9-12)**
+
 #### **Strategi Online:**
+
 1. **Kampanye Digital**:
    - Seri posting edukatif di Instagram/FB: "7 Potensi Desa Terpendam"
    - Webinar teaser gratis: "Sukseskan Dana Desa dengan 3 Langkah"
@@ -78,6 +84,7 @@
      - Live chat dengan konsultan
 
 #### **Strategi Offline:**
+
 1. **Roadshow Kabupaten**:
    - 5 kota/kabupaten prioritas
    - Kolaborasi dengan Dinas PMD setempat
@@ -89,6 +96,7 @@
    - Pameran produk desa di kantor pusat perusahaan
 
 #### **Indikator Sukses:**
+
 - 100+ desa mendaftar webinar
 - 5 MoU dengan pemerintah kabupaten
 - 3 perusahaan mitra CSR
@@ -96,7 +104,9 @@
 ---
 
 ### **Tahap 5: Implementasi Pilot Project (Minggu 13-16)**
+
 #### **Aktivitas:**
+
 1. **Seleksi Desa Pilot**:
    - Assessment lapangan ke 15 kandidat
    - Pemilihan 3 desa dengan kriteria:
@@ -109,6 +119,7 @@
    - Pembuatan kanal komunikasi khusus
 
 #### **Sistem Monitoring:**
+
 - Dashboard real-time perkembangan
 - KPI unik per desa (contoh: Desa A - jumlah pengrajin terlatih; Desa B - kunjungan wisatawan)
 - Sistem reward untuk capaian milestone
@@ -116,6 +127,7 @@
 ---
 
 ### **Mekanisme Evaluasi & Keberlanjutan**
+
 1. **Evaluasi Triwulan**:
    - Audit dokumen implementasi
    - FGD dengan desa peserta
