@@ -76,28 +76,32 @@
          }
 
         .accordion-body {
-            padding: 1em; /* Padding inside the body */
+            padding: 2em 4em 2em 4em; /* Padding inside the body */
         }
 
 
-        h2, h3, h4 {
+        h2, h3, h4, h5 {
             color: #000;
-            margin-top: 1em;
-            margin-bottom: 0.5em;
+            margin-top: 1.4em;
+            margin-bottom: 0.7em;
         }
 
         h2 {
-            font-size: 1.5em;
+            font-size: 1.8em;
             border-bottom: 1px solid #a2a9b1;
             padding-bottom: 0.3em;
         }
 
         h3 {
-            font-size: 1.2em;
+            font-size: 1.6em;
         }
 
         h4 {
-            font-size: 1em;
+            font-size: 1.4em;
+        }
+
+        h5 {
+            font-size: 1.2em;
         }
 
         table {
@@ -179,8 +183,10 @@
                             <p>Cakra Consulting - Lembaga Konsultasi dan Pendampingan Profesional</p>
 
                             <h4>1.3 Latar Belakang</h4>
-                            <p>Indonesia memiliki lebih dari 74.000 desa dengan beragam potensi ekonomi yang belum teroptimalkan. Berbagai tantangan seperti keterbatasan pengetahuan, akses pasar, modal, dan teknologi sering menjadi hambatan bagi desa untuk mengembangkan potensi ekonominya. Cakra Consulting sebagai lembaga konsultasi dan pendampingan profesional memahami bahwa pengembangan ekonomi desa memerlukan pendekatan bertahap, sistematis, dan berkelanjutan yang disesuaikan dengan kebutuhan dan kondisi masing-masing desa.</p>
-                            <p>Berdasarkan pengalaman Cakra Consulting dalam mendampingi pengembangan ekonomi berbasis komunitas, terdapat tiga aspek krusial yang perlu difasilitasi: [1] inspirasi dan motivasi dari contoh keberhasilan, [2] kapasitas perencanaan dan pengelolaan usaha, serta [3] pendampingan teknis dalam implementasi. Program ini dirancang untuk memfasilitasi ketiga aspek tersebut secara bertahap dan modular, memungkinkan desa untuk bergabung sesuai kebutuhan dan kemampuan finansial mereka.</p>
+                            <p>Indonesia memiliki lebih dari 74.000 desa dengan beragam potensi ekonomi yang belum teroptimalkan. Berbagai tantangan seperti keterbatasan pengetahuan, akses pasar, modal, dan teknologi sering menjadi hambatan bagi desa untuk mengembangkan potensi ekonominya.</p>
+                            <p>Cakra Consulting sebagai lembaga konsultasi dan pendampingan profesional memahami bahwa pengembangan ekonomi desa memerlukan pendekatan bertahap, sistematis, dan berkelanjutan yang disesuaikan dengan kebutuhan dan kondisi masing-masing desa.</p>
+                            <p>Berdasarkan pengalaman Cakra Consulting dalam mendampingi pengembangan ekonomi berbasis komunitas, terdapat tiga aspek krusial yang perlu difasilitasi: (1) inspirasi dan motivasi dari contoh keberhasilan, (2) kapasitas perencanaan dan pengelolaan usaha, serta (3) pendampingan teknis dalam implementasi.</p>
+                            <p>Program ini dirancang untuk memfasilitasi ketiga aspek tersebut secara bertahap dan modular, memungkinkan desa untuk bergabung sesuai kebutuhan dan kemampuan finansial mereka.</p>
 
                             <h4>1.4 Tujuan Program</h4>
                             <ol>
@@ -211,17 +217,30 @@
 
                             <h4>Diagram Alur Program</h4>
                             <pre class="mermaid">
+%%{ init: { 'flowchart': { 'nodeSpacing': 40, 'rankSpacing': 40 } } }%%
 graph TD
     A[Desa Tertarik] --> B{Ikut Webinar?};
-    B -- Ya --> C[Tahap Inspirasi<br>(Webinar)];
+    B -- Ya --> C[Tahap Inspirasi<br>Webinar];
     C --> D{Minat Workshop & Lolos Seleksi?};
-    D -- Ya --> E[Tahap Kapasitasi<br>(Workshop)];
+    D -- Ya --> E[Tahap Kapasitasi<br>Workshop];
     E --> F{Hasil Perencanaan Baik & Lolos Seleksi?};
-    F -- Ya --> G[Tahap Implementasi<br>(Pendampingan)];
+    F -- Ya --> G[Tahap Implementasi<br>Pendampingan];
     B -- Tidak --> H[Tidak Bergabung];
     D -- Tidak --> H;
     F -- Tidak --> H;
     G --> I[Desa Mandiri & Berkelanjutan];
+
+    style A fill:#cce5ff,stroke:#333,stroke-width:2px
+    style B fill:#e0e0e0,stroke:#333,stroke-width:2px
+    style C fill:#f2f2f2,stroke:#333,stroke-width:2px
+    style D fill:#e0e0e0,stroke:#333,stroke-width:2px
+    style E fill:#f2f2f2,stroke:#333,stroke-width:2px
+    style F fill:#e0e0e0,stroke:#333,stroke-width:2px
+    style G fill:#f2f2f2,stroke:#333,stroke-width:2px
+    style H fill:#cce5ff,stroke:#333,stroke-width:2px
+    style I fill:#cce5ff,stroke:#333,stroke-width:2px
+
+    linkStyle default stroke:#333,stroke-width:1.5px;
                             </pre>
 
                             <h4>2.2 Struktur Program</h4>
@@ -1413,7 +1432,7 @@ graph TD
                     <div id="collapseDokumen" class="accordion-collapse collapse" aria-labelledby="headingDokumen" data-bs-parent="#programAccordion">
                         <div class="accordion-body">
                             <h2>Dokumen dan Materi Penting untuk Pemasaran dan Pilot Project Program Akselerator Bisnis Komunitas Desa</h2>
-                            <p>Untuk memulai pemasaran dan persiapan pilot project program pengembangan potensi desa, Cakra Consulting perlu menyiapkan beberapa dokumen dan materi pendukung. Berikut adalah dokumen dan materi penting yang sebaiknya disiapkan:</p>
+                            <p>Untuk memulai pemasaran dan persiapan pilot project program pengembangan potensi desa, Cakra Consulting perlu menyiapkan beberapa dokumen dan materi pendukung.</p>
 
                             <h3>1. Materi Pemasaran dan Komunikasi</h3>
 
@@ -2056,36 +2075,36 @@ graph TD
                                         <td>Manajer Program</td>
                                         <td>1</td>
                                         <td>80 (~16 minggu * 5 hari)</td>
-                                        <td>[Isi Upah per Orang-Hari]</td>
-                                        <td>[Jumlah Personel *Hari* Upah per Hari]</td>
+                                        <td>...</td>
+                                        <td>...</td>
                                     </tr>
                                     <tr>
                                         <td>Ahli Pengembangan Usaha / Fasilitator Utama</td>
                                         <td>1-2</td>
                                         <td>60 (~12 minggu * 5 hari)</td>
-                                        <td>[Isi Upah per Orang-Hari]</td>
-                                        <td>[Jumlah Personel *Hari* Upah per Hari]</td>
+                                        <td>...</td>
+                                        <td>...</td>
                                     </tr>
                                     <tr>
                                         <td>Ahli Legal/Administrasi/Dokumentasi</td>
                                         <td>1</td>
                                         <td>80 (~16 minggu * 5 hari)</td>
-                                        <td>[Isi Upah per Orang-Hari]</td>
-                                        <td>[Jumlah Personel *Hari* Upah per Hari]</td>
+                                        <td>...</td>
+                                        <td>...</td>
                                     </tr>
                                     <tr>
                                         <td>Spesialis Teknis/Lapangan (Jika Ada)</td>
-                                        <td>[Jumlah]</td>
-                                        <td>[Jumlah Hari]</td>
-                                        <td>[Isi Upah per Orang-Hari]</td>
-                                        <td>[Jumlah Personel *Hari* Upah per Hari]</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Total Estimasi Biaya Personel</strong></td>
                                         <td><strong>4-5</strong></td>
-                                        <td><strong>[Jumlah Total Estimasi Hari]</strong></td>
+                                        <td><strong>...</strong></td>
                                         <td></td>
-                                        <td><strong>[Jumlah Total Estimasi Biaya Personel]</strong></td>
+                                        <td><strong>...</strong></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -2096,59 +2115,59 @@ graph TD
                             <h4>Tahap 1: Persiapan Tim & Pelaksanaan Webinar (Minggu 1-2)</h4>
                             <ul>
                                 <li>Estimasi Orang-Hari Personel Tim Inti (Persiapan & Pelaksanaan Webinar): 30 Hari (Estimasi 3 orang *2 minggu* 5 hari/minggu)</li>
-                                <li>Biaya Personel Tim Inti: [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti]</li>
-                                <li>Honor Pembicara Webinar Eksternal (3 orang): [Estimasi Honor per Pembicara * 3]</li>
-                                <li>Biaya Lokakarya Perencanaan: [Estimasi Biaya]</li>
-                                <li>Biaya Operasional Lainnya (Komunikasi, Internet, Alat Tulis, dll.): [Estimasi Biaya]</li>
+                                <li>Biaya Personel Tim Inti: ...</li>
+                                <li>Honor Pembicara Webinar Eksternal (3 orang): ...</li>
+                                <li>Biaya Lokakarya Perencanaan: ...</li>
+                                <li>Biaya Operasional Lainnya (Komunikasi, Internet, Alat Tulis, dll.): ...</li>
                                 <li><strong>Total Tahap 1:</strong> [Jumlah Biaya Tahap 1]</li>
                             </ul>
 
                             <h4>Tahap 2: Pengembangan Materi Inti (Minggu 3-6)</h4>
                             <ul>
                                 <li>Estimasi Orang-Hari Personel Tim Inti: 60 Hari (Estimasi 3 orang *4 minggu* 5 hari/minggu)</li>
-                                <li>Biaya Personel Tim Inti: [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti]</li>
-                                <li>Biaya Validasi Konten oleh Ahli Sektor (Opsional): [Estimasi Biaya]</li>
-                                <li>Biaya Operasional Lainnya (Riset, Materi Referensi, dll.): [Estimasi Biaya]</li>
-                                <li><strong>Total Tahap 2:</strong> [Jumlah Biaya Tahap 2]</li>
+                                <li>Biaya Personel Tim Inti: ...</li>
+                                <li>Biaya Validasi Konten oleh Ahli Sektor (Opsional): ...</li>
+                                <li>Biaya Operasional Lainnya (Riset, Materi Referensi, dll.): ...</li>
+                                <li><strong>Total Tahap 2:</strong> ...</li>
                             </ul>
 
                             <h4>Tahap 3: Finalisasi & Uji Coba (Minggu 7-8)</h4>
                             <ul>
                                 <li>Estimasi Orang-Hari Personel Tim Inti: 30 Hari (Estimasi 3 orang *2 minggu* 5 hari/minggu)</li>
-                                <li>Biaya Personel Tim Inti: [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti]</li>
-                                <li>Biaya Uji Coba Materi (Transportasi, Konsumsi Peserta Uji Coba, Sewa Tempat jika offline): [Estimasi Biaya]</li>
-                                <li>Biaya Produksi Massal (Cetak Brosur Terbatas, Render Video Profil, Setup Database Online): [Estimasi Biaya]</li>
-                                <li>Biaya Operasional Lainnya (Koordinasi, Komunikasi): [Estimasi Biaya]</li>
-                                <li><strong>Total Tahap 3:</strong> [Jumlah Biaya Tahap 3]</li>
+                                <li>Biaya Personel Tim Inti: ...</li>
+                                <li>Biaya Uji Coba Materi (Transportasi, Konsumsi Peserta Uji Coba, Sewa Tempat jika offline): ...</li>
+                                <li>Biaya Produksi Massal (Cetak Brosur Terbatas, Render Video Profil, Setup Database Online): ...</li>
+                                <li>Biaya Operasional Lainnya (Koordinasi, Komunikasi): ...</li>
+                                <li><strong>Total Tahap 3:</strong> ...</li>
                             </ul>
 
                             <h4>Tahap 4: Peluncuran & Pemasaran (Minggu 9-12)</h4>
                             <ul>
                                 <li>Estimasi Orang-Hari Personel Tim Inti: 60 Hari (Estimasi 3 orang *4 minggu* 5 hari/minggu)</li>
-                                <li>Biaya Personel Tim Inti: [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti]</li>
-                                <li>Biaya Kampanye Digital (Iklan Online, Platform Microsite): [Estimasi Biaya]</li>
-                                <li>Biaya Roadshow Kabupaten (Transportasi, Akomodasi, Sewa Tempat Acara): [Estimasi Biaya]</li>
-                                <li>Biaya Pertemuan CSR (Konsumsi, Materi Pertemuan): [Estimasi Biaya]</li>
-                                <li>Biaya Operasional Lainnya (Materi Promosi Cetak, Komunikasi): [Estimasi Biaya]</li>
-                                <li><strong>Total Tahap 4:</strong> [Jumlah Biaya Tahap 4]</li>
+                                <li>Biaya Personel Tim Inti: ...</li>
+                                <li>Biaya Kampanye Digital (Iklan Online, Platform Microsite): ...</li>
+                                <li>Biaya Roadshow Kabupaten (Transportasi, Akomodasi, Sewa Tempat Acara): ...</li>
+                                <li>Biaya Pertemuan CSR (Konsumsi, Materi Pertemuan): ...</li>
+                                <li>Biaya Operasional Lainnya (Materi Promosi Cetak, Komunikasi): ...</li>
+                                <li><strong>Total Tahap 4:</strong> ...</li>
                             </ul>
 
                             <h4>Tahap 5: Implementasi Pilot Project (Minggu 13-16)</h4>
                             <ul>
                                 <li>Estimasi Orang-Hari Personel Tim Inti: 60 Hari (Estimasi 3 orang *4 minggu* 5 hari/minggu)</li>
-                                <li>Biaya Personel Tim Inti: [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti]</li>
-                                <li>Biaya Assessment Lapangan (Transportasi, Akomodasi Tim): [Estimasi Biaya]</li>
-                                <li>Biaya Pelatihan Tim Desa (Materi Pelatihan, Konsumsi Peserta): [Estimasi Biaya]</li>
-                                <li>Biaya Sistem Monitoring (Platform, Maintenance Ringan): [Estimasi Biaya]</li>
-                                <li>Biaya Operasional Lainnya (Koordinasi, Komunikasi): [Estimasi Biaya]</li>
-                                <li><strong>Total Tahap 5:</strong> [Jumlah Biaya Tahap 5]</li>
+                                <li>Biaya Personel Tim Inti: ...</li>
+                                <li>Biaya Assessment Lapangan (Transportasi, Akomodasi Tim): ...</li>
+                                <li>Biaya Pelatihan Tim Desa (Materi Pelatihan, Konsumsi Peserta): ...</li>
+                                <li>Biaya Sistem Monitoring (Platform, Maintenance Ringan): ...</li>
+                                <li>Biaya Operasional Lainnya (Koordinasi, Komunikasi): ...</li>
+                                <li><strong>Total Tahap 5:</strong> ...</li>
                             </ul>
 
                             <h3>Total Keseluruhan RAB Fase Penyiapan Dokumen</h3>
-                            <p><strong>Total Biaya Personel Tim Inti:</strong> [Total Estimasi Biaya Personel dari tabel]</p>
-                            <p><strong>Total Honor Pembicara Eksternal:</strong> [Honor Pembicara Webinar Eksternal dari Tahap 1]</p>
-                            <p><strong>Total Biaya Operasional Lainnya:</strong> [Jumlah semua Estimasi Biaya Operasional Lainnya dari setiap tahap]</p>
-                            <p><strong>Grand Total RAB Fase Penyiapan Dokumen:</strong> [Total Biaya Personel Tim Inti + Total Honor Pembicara Eksternal + Total Biaya Operasional Lainnya]</p>
+                            <p><strong>Total Biaya Personel Tim Inti:</strong> ...</p>
+                            <p><strong>Total Honor Pembicara Eksternal:</strong> ...</p>
+                            <p><strong>Total Biaya Operasional Lainnya:</strong> ...</p>
+                            <p><strong>Grand Total RAB Fase Penyiapan Dokumen:</strong> ...</p>
 
                             <hr>
 
