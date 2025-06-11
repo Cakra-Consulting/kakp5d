@@ -442,12 +442,20 @@ table {
 	</style>
 
 	<style>
-		#page {
-			background-color: white;
-			padding: 20px;
-			max-width: 600px;
-			margin: 0 auto;
-		}
+#page {
+  background-color: white;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  #page {
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+}
 	</style>
 
 	<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
