@@ -173,11 +173,11 @@ flowchart LR
 
 | Hari       | Materi Utama                              | Topik Bahasan                                                                                                                                 |
 |------------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 | Pemetaan & Analisis Potensi Desa        | 1. Teknik pemetaan aset & potensi desa (sumber daya alam, manusia, sosial, finansial, infrastruktur)<br><br>2. Analisis *SWOT* & prioritas pengembangan<br><br>3. Studi kasus sukses sesuai sektor yang diminati |
+| 1 | Pemetaan & Analisis Potensi Desa        | 1. Teknik pemetaan aset & potensi desa (sumber daya alam, manusia, sosial, finansial, infrastruktur)<br>2. Analisis *SWOT* & prioritas pengembangan<br>3. Studi kasus sukses sesuai sektor yang diminati |
 | | | |
-| 2   | Perencanaan Model & Strategi Bisnis     | 1. Pengembangan model bisnis dengan *Business Model Canvas*<br><br>2. Penentuan proposisi nilai & keunggulan kompetitif<br><br>3. Strategi operasional & pengelolaan sumber daya<br><br>4. Struktur organisasi & tata kelola usaha desa |
+| 2   | Perencanaan Model & Strategi Bisnis     | 1. Pengembangan model bisnis dengan *Business Model Canvas*<br>2. Penentuan proposisi nilai & keunggulan kompetitif<br>3. Strategi operasional & pengelolaan sumber daya<br>4. Struktur organisasi & tata kelola usaha desa |
 | | | |
-| 3  | Perencanaan Finansial & Implementasi    | 1. Penyusunan rencana keuangan & proyeksi bisnis<br><br>2. Strategi penggalangan modal & manajemen keuangan<br><br>3. Rencana pemasaran & pengembangan pasar<br><br>4. Penyusunan rencana aksi implementasi |
+| 3  | Perencanaan Finansial & Implementasi    | 1. Penyusunan rencana keuangan & proyeksi bisnis<br>2. Strategi penggalangan modal & manajemen keuangan<br>3. Rencana pemasaran & pengembangan pasar<br>4. Penyusunan rencana aksi implementasi |
 
 ###### 2.2.2.3. Output
 
@@ -201,13 +201,13 @@ flowchart LR
 
 | Aspek                        | Komponen Pendampingan                                                                 |
 |------------------------------|---------------------------------------------------------------------------------------|
-| **Legal & Kelembagaan** | a. Fasilitasi pembentukan atau penguatan kelembagaan (BUMDes/Koperasi)<br><br>b. Pendampingan perizinan dan legalitas usaha<br><br>c. Penyusunan standar operasional prosedur dan tata kelola |
+| **Legal & Kelembagaan** | a. Fasilitasi pembentukan atau penguatan kelembagaan (BUMDes/Koperasi)<br>b. Pendampingan perizinan dan legalitas usaha<br>c. Penyusunan standar operasional prosedur dan tata kelola |
 | | | |
-| **Teknis & Operasional** | a. Pendampingan pengembangan produk/jasa<br><br>b. Penerapan teknologi dan inovasi yang relevan<br><br>c. Sistem manajemen kualitas dan standarisasi |
+| **Teknis & Operasional** | a. Pendampingan pengembangan produk/jasa<br>b. Penerapan teknologi dan inovasi yang relevan<br>c. Sistem manajemen kualitas dan standarisasi |
 | | | |
-| **Finansial**        | a. Fasilitasi akses ke sumber permodalan (bank, hibah, CSR)<br><br>b. Penyusunan laporan keuangan dan akuntansi sederhana<br><br>c. Manajemen arus kas dan investasi |
+| **Finansial**        | a. Fasilitasi akses ke sumber permodalan (bank, hibah, CSR)<br>b. Penyusunan laporan keuangan dan akuntansi sederhana<br>c. Manajemen arus kas dan investasi |
 | | | |
-| **Pemasaran**        | a. Pengembangan brand dan strategi komunikasi<br><br>b. Pemasaran digital dan konvensional<br><br>c. Pengembangan jaringan distribusi dan mitra bisnis |
+| **Pemasaran**        | a. Pengembangan brand dan strategi komunikasi<br>b. Pemasaran digital dan konvensional<br>c. Pengembangan jaringan distribusi dan mitra bisnis |
 
 ###### 2.2.3.3. Mekanisme Pendampingan
 
@@ -257,11 +257,11 @@ flowchart TD
 
 | Tahap                                | Kriteria Peserta                                                                                                                                 |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| **1. Inspirasi (Webinar)**     | 1. Kepala Desa dan perangkat desa<br><br>2. Pengurus BUMDes/lembaga ekonomi desa<br><br>3. Tokoh masyarakat dan pelaku usaha desa<br><br>4. Perwakilan kelompok masyarakat produktif<br><br>5. Tidak ada batasan jumlah peserta per desa |
+| **1. Inspirasi (Webinar)**     | 1. Kepala Desa dan perangkat desa<br>2. Pengurus BUMDes/lembaga ekonomi desa<br>3. Tokoh masyarakat dan pelaku usaha desa<br>4. Perwakilan kelompok masyarakat produktif<br>5. Tidak ada batasan jumlah peserta per desa |
 |                                      |                                                                                                                                                 |
-| **2. Kapasitasi (Workshop)**   | 1. Desa yang telah mengikuti webinar dan menunjukkan komitmen untuk pengembangan ekonomi desa<br><br>2. Tim desa yang terdiri dari 5-7 orang (Kepala Desa/perangkat desa, pengurus BUMDes, tokoh masyarakat/pelaku usaha)<br><br>3. Memiliki identifikasi awal potensi desa yang akan dikembangkan<br><br>4. Bersedia menyediakan pendanaan untuk mengikuti workshop |
+| **2. Kapasitasi (Workshop)**   | 1. Desa yang telah mengikuti webinar dan menunjukkan komitmen untuk pengembangan ekonomi desa<br>2. Tim desa yang terdiri dari 5-7 orang (Kepala Desa/perangkat desa, pengurus BUMDes, tokoh masyarakat/pelaku usaha)<br>3. Memiliki identifikasi awal potensi desa yang akan dikembangkan<br>4. Bersedia menyediakan pendanaan untuk mengikuti workshop |
 |                                      |                                                                                                                                                 |
-| **3. Implementasi (Pendampingan)** | 1. Desa yang telah menyelesaikan workshop dan memiliki dokumen perencanaan usaha<br><br>2. Memiliki komitmen tertulis dari pemerintah desa untuk implementasi<br><br>3. Memiliki alokasi anggaran desa untuk pengembangan usaha<br><br>4. Bersedia menyediakan pendanaan untuk program pendampingan |
+| **3. Implementasi (Pendampingan)** | 1. Desa yang telah menyelesaikan workshop dan memiliki dokumen perencanaan usaha<br>2. Memiliki komitmen tertulis dari pemerintah desa untuk implementasi<br>3. Memiliki alokasi anggaran desa untuk pengembangan usaha<br>4. Bersedia menyediakan pendanaan untuk program pendampingan |
 
 #### 3.2. Mekanisme Seleksi
 
@@ -269,9 +269,9 @@ Mekanisme seleksi desa peserta program dilakukan secara bertahap.
 
 | Tahap Seleksi                       | Mekanisme Seleksi                                                                                                                               |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| **1. Dari Webinar ke Workshop**     | 1. Pengisian formulir minat dan komitmen setelah webinar<br><br>2. Wawancara singkat dengan tim Cakra Consulting<br><br>3. Seleksi berdasarkan kesiapan dan potensi keberhasilan |
+| **1. Dari Webinar ke Workshop**     | 1. Pengisian formulir minat dan komitmen setelah webinar<br>2. Wawancara singkat dengan tim Cakra Consulting<br>3. Seleksi berdasarkan kesiapan dan potensi keberhasilan |
 |                                     |                                                                                                                                                 |
-| **2. Dari Workshop ke Pendampingan** | 1. Evaluasi kualitas dokumen perencanaan yang dihasilkan dari workshop<br><br>2. Presentasi rencana implementasi di hadapan tim Cakra Consulting<br><br>3. Verifikasi dukungan dan komitmen pemerintah desa<br><br>4. Seleksi berdasarkan kelayakan usaha dan kapasitas implementasi |
+| **2. Dari Workshop ke Pendampingan** | 1. Evaluasi kualitas dokumen perencanaan yang dihasilkan dari workshop<br>2. Presentasi rencana implementasi di hadapan tim Cakra Consulting<br>3. Verifikasi dukungan dan komitmen pemerintah desa<br>4. Seleksi berdasarkan kelayakan usaha dan kapasitas implementasi |
 
 #### 3.3. Biaya Partisipasi
 
@@ -289,11 +289,11 @@ Program ini menerapkan pembagian biaya (*cost-sharing*) dengan skema sebagai ber
 
 | Tahap                                | Fasilitas                                                                                                                               |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **1. Inspirasi (Webinar)**     | a. Akses ke webinar interaktif dengan tiga pembicara ahli<br><br>b. Materi presentasi dalam bentuk digital<br><br>c. Rekaman video webinar<br><br>d. Sertifikat keikutsertaan digital |
+| **1. Inspirasi (Webinar)**     | a. Akses ke webinar interaktif dengan tiga pembicara ahli<br>b. Materi presentasi dalam bentuk digital<br>c. Rekaman video webinar<br>d. Sertifikat keikutsertaan digital |
 |                                      |                                                                                                                                         |
-| **2. Kapasitasi (Workshop)**   | a. Modul pelatihan lengkap<br><br>b. Alat bantu pemetaan dan perencanaan<br><br>c. Template dokumen perencanaan<br><br>d. Konsumsi selama workshop<br><br>e. Sertifikat keikutsertaan<br><br>f. Fasilitasi oleh tim ahli Cakra Consulting |
+| **2. Kapasitasi (Workshop)**   | a. Modul pelatihan lengkap<br>b. Alat bantu pemetaan dan perencanaan<br>c. Template dokumen perencanaan<br>d. Konsumsi selama workshop<br>e. Sertifikat keikutsertaan<br>f. Fasilitasi oleh tim ahli Cakra Consulting |
 |                                      |                                                                                                                                         |
-| **3. Implementasi (Pendampingan)** | a. Kunjungan pendampingan berkala<br><br>b. Konsultasi jarak jauh tanpa batas<br><br>c. Akses ke jaringan ahli Cakra Consulting<br><br>d. Template dokumen operasional<br><br>e. Fasilitasi akses ke program pendukung<br><br>f. Laporan perkembangan berkala<br><br>g. Dokumentasi proses dan hasil |
+| **3. Implementasi (Pendampingan)** | a. Kunjungan pendampingan berkala<br>b. Konsultasi jarak jauh tanpa batas<br>c. Akses ke jaringan ahli Cakra Consulting<br>d. Template dokumen operasional<br>e. Fasilitasi akses ke program pendukung<br>f. Laporan perkembangan berkala<br>g. Dokumentasi proses dan hasil |
 
 ### 4. METODE PELAKSANAAN
 
@@ -301,55 +301,55 @@ Program ini menerapkan pembagian biaya (*cost-sharing*) dengan skema sebagai ber
 
 | Kegiatan                                | Detail Kegiatan                                                                                                                               |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| **1. Penyiapan Materi dan Sumber Daya** | a. Pengembangan modul dan materi pelatihan<br><br>b. Penyusunan pedoman dan instrumen pendampingan<br><br>c. Rekrutmen dan briefing tim pelaksana |
+| **1. Penyiapan Materi dan Sumber Daya** | a. Pengembangan modul dan materi pelatihan<br>b. Penyusunan pedoman dan instrumen pendampingan<br>c. Rekrutmen dan briefing tim pelaksana |
 |                                         |                                                                                                                                               |
-| **2. Sosialisasi Program**              | a. Penyebaran informasi melalui kanal online dan offline<br><br>b. Koordinasi dengan pemerintah kabupaten/kecamatan<br><br>c. Webinar perkenalan program (opsional) |
+| **2. Sosialisasi Program**              | a. Penyebaran informasi melalui kanal online dan offline<br>b. Koordinasi dengan pemerintah kabupaten/kecamatan<br>c. Webinar perkenalan program (opsional) |
 |                                         |                                                                                                                                               |
-| **3. Pendaftaran Desa Peserta**         | a. Penerimaan dan verifikasi formulir pendaftaran<br><br>b. Konfirmasi keikutsertaan                                                           |
+| **3. Pendaftaran Desa Peserta**         | a. Penerimaan dan verifikasi formulir pendaftaran<br>b. Konfirmasi keikutsertaan                                                           |
 
 #### 4.2. Pelaksanaan Webinar
 
 | Tahap                                | Detail Kegiatan                                                                                                                               |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| **1. Persiapan Teknis**              | a. Setup platform webinar dan pengujian teknis<br><br>b. Briefing pembicara dan moderator<br><br>c. Distribusi panduan teknis kepada peserta          |
+| **1. Persiapan Teknis**              | a. Setup platform webinar dan pengujian teknis<br>b. Briefing pembicara dan moderator<br>c. Distribusi panduan teknis kepada peserta          |
 |                                      |                                                                                                                                               |
-| **2. Pelaksanaan Webinar**           | a. Registrasi peserta online<br><br>b. Sesi presentasi tiga pembicara<br><br>c. Sesi tanya jawab dan diskusi panel<br><br>d. Pengisian formulir minat lanjutan |
+| **2. Pelaksanaan Webinar**           | a. Registrasi peserta online<br>b. Sesi presentasi tiga pembicara<br>c. Sesi tanya jawab dan diskusi panel<br>d. Pengisian formulir minat lanjutan |
 |                                      |                                                                                                                                               |
-| **3. Tindak Lanjut Webinar**         | a. Distribusi rekaman dan materi<br><br>b. Pengumpulan dan analisis umpan balik<br><br>c. Seleksi desa untuk workshop (lihat Bagian 3.3.2)             |
+| **3. Tindak Lanjut Webinar**         | a. Distribusi rekaman dan materi<br>b. Pengumpulan dan analisis umpan balik<br>c. Seleksi desa untuk workshop (lihat Bagian 3.3.2)             |
 
 #### 4.3. Pelaksanaan Workshop
 
 | Hari/Kegiatan                        | Detail Kegiatan                                                                                                                               |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| **1. Persiapan Logistik**            | a. Pemilihan dan persiapan lokasi<br><br>b. Penyiapan alat bantu dan perlengkapan<br><br>c. Konfirmasi kehadiran tim desa                     |
+| **1. Persiapan Logistik**            | a. Pemilihan dan persiapan lokasi<br>b. Penyiapan alat bantu dan perlengkapan<br>c. Konfirmasi kehadiran tim desa                     |
 |                                      |                                                                                                                                               |
-| **2. Hari Pertama**                  | a. Pembukaan dan pengantar program<br><br>b. Sesi pemetaan potensi desa<br><br>c. Analisis SWOT dan prioritas pengembangan<br><br>d. Evaluasi harian dan penugasan |
+| **2. Hari Pertama**                  | a. Pembukaan dan pengantar program<br>b. Sesi pemetaan potensi desa<br>c. Analisis SWOT dan prioritas pengembangan<br>d. Evaluasi harian dan penugasan |
 |                                      |                                                                                                                                               |
-| **3. Hari Kedua**                    | a. Review penugasan<br><br>b. Pengembangan model bisnis<br><br>c. Perencanaan operasional dan tata kelola<br><br>d. Evaluasi harian dan penugasan |
+| **3. Hari Kedua**                    | a. Review penugasan<br>b. Pengembangan model bisnis<br>c. Perencanaan operasional dan tata kelola<br>d. Evaluasi harian dan penugasan |
 |                                      |                                                                                                                                               |
-| **4. Hari Ketiga**                   | a. Review penugasan<br><br>b. Perencanaan finansial<br><br>c. Finalisasi rencana implementasi<br><br>d. Presentasi rencana oleh tim desa<br><br>e. Evaluasi dan rencana tindak lanjut |
+| **4. Hari Ketiga**                   | a. Review penugasan<br>b. Perencanaan finansial<br>c. Finalisasi rencana implementasi<br>d. Presentasi rencana oleh tim desa<br>e. Evaluasi dan rencana tindak lanjut |
 
 #### 4.4. Pelaksanaan Pendampingan
 
 | Fase Pendampingan                     | Detail Kegiatan                                                                                                                               |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| **1. Persiapan Pendampingan**         | a. Penandatanganan kesepakatan pendampingan<br><br>b. Penyusunan jadwal kunjungan<br><br>c. Pembentukan grup komunikasi online                |
+| **1. Persiapan Pendampingan**         | a. Penandatanganan kesepakatan pendampingan<br>b. Penyusunan jadwal kunjungan<br>c. Pembentukan grup komunikasi online                |
 |                                       |                                                                                                                                               |
-| **2. Bulan 1-2:<br>Fokus Legalitas & Kelembagaan** | a. Sosialisasi rencana usaha kepada masyarakat<br><br>b. Penguatan kelembagaan (BUMDes/Koperasi)<br><br>c. Penyiapan legalitas dan perizinan awal<br><br>d. Finalisasi rencana operasional |
+| **2. Bulan 1-2:<br>Fokus Legalitas & Kelembagaan** | a. Sosialisasi rencana usaha kepada masyarakat<br>b. Penguatan kelembagaan (BUMDes/Koperasi)<br>c. Penyiapan legalitas dan perizinan awal<br>d. Finalisasi rencana operasional |
 |                                       |                                                                                                                                               |
-| **3. Bulan 3-4:<br>Fokus Teknis & Operasional** | a. Implementasi rencana operasional<br><br>b. Pengembangan produk/jasa<br><br>c. Penguatan kapasitas SDM pelaksana<br><br>d. Pengembangan sistem pengelolaan |
+| **3. Bulan 3-4:<br>Fokus Teknis & Operasional** | a. Implementasi rencana operasional<br>b. Pengembangan produk/jasa<br>c. Penguatan kapasitas SDM pelaksana<br>d. Pengembangan sistem pengelolaan |
 |                                       |                                                                                                                                               |
-| **4. Bulan 5-6:<br>Fokus Finansial & Pemasaran** | a. Pengembangan strategi pemasaran<br><br>b. Fasilitasi akses permodalan<br><br>c. Evaluasi dan penyesuaian implementasi<br><br>d. Penguatan jaringan mitra<br><br>e. Penyusunan rencana keberlanjutan |
+| **4. Bulan 5-6:<br>Fokus Finansial & Pemasaran** | a. Pengembangan strategi pemasaran<br>b. Fasilitasi akses permodalan<br>c. Evaluasi dan penyesuaian implementasi<br>d. Penguatan jaringan mitra<br>e. Penyusunan rencana keberlanjutan |
 
 #### 4.5. Monitoring dan Evaluasi
 
 | Jenis Kegiatan                        | Detail Kegiatan                                                                                                                               |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| **1. Monitoring Proses**              | a. Dokumentasi kegiatan<br><br>b. Laporan perkembangan berkala<br><br>c. Evaluasi pencapaian milestone                                        |
+| **1. Monitoring Proses**              | a. Dokumentasi kegiatan<br>b. Laporan perkembangan berkala<br>c. Evaluasi pencapaian milestone                                        |
 |                                       |                                                                                                                                               |
-| **2. Evaluasi Hasil**                 | a. Pengukuran indikator keberhasilan (lihat Bagian 7)<br><br>b. Dokumentasi perubahan dan dampak<br><br>c. Identifikasi pembelajaran dan praktik baik |
+| **2. Evaluasi Hasil**                 | a. Pengukuran indikator keberhasilan (lihat Bagian 7)<br>b. Dokumentasi perubahan dan dampak<br>c. Identifikasi pembelajaran dan praktik baik |
 |                                       |                                                                                                                                               |
-| **3. Diseminasi Hasil**               | a. Penyusunan laporan akhir<br><br>b. Dokumentasi video/foto<br><br>c. Publikasi cerita sukses (jika ada)                                     |
+| **3. Diseminasi Hasil**               | a. Penyusunan laporan akhir<br>b. Dokumentasi video/foto<br>c. Publikasi cerita sukses (jika ada)                                     |
 
 ### 5. JADWAL PELAKSANAAN
 
@@ -413,13 +413,13 @@ Program ini akan dilaksanakan oleh tim inti yang fleksibel, disesuaikan dengan k
 
 | No. | Peran                                      | Kualifikasi                                                                 | Tugas                                                                                                                                 |
 |-----|--------------------------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | **Manajer Program**                        | a. Minimal S2 bidang relevan<br><br>b. Pengalaman minimal 5 tahun dalam pengembangan ekonomi berbasis komunitas | 1. Memimpin perencanaan, implementasi, dan evaluasi keseluruhan program<br><br>2. Koordinasi tim<br><br>3. Komunikasi dengan stakeholder utama |
+| 1   | **Manajer Program**                        | a. Minimal S2 bidang relevan<br>b. Pengalaman minimal 5 tahun dalam pengembangan ekonomi berbasis komunitas | 1. Memimpin perencanaan, implementasi, dan evaluasi keseluruhan program<br>2. Koordinasi tim<br>3. Komunikasi dengan stakeholder utama |
 |     |                                            |                                                                             |                                                                                                                                       |
-| 2   | **Ahli Pengembangan Usaha / Fasilitator Utama** | a. Minimal S1 ekonomi/bisnis/sosial<br><br>b. Pengalaman minimal 3 tahun dalam pengembangan usaha kecil menengah atau fasilitasi masyarakat<br><br>c. Memiliki kemampuan fasilitasi yang kuat | 1. Memimpin pelatihan dan pendampingan aspek model bisnis, operasional, finansial, dan pemasaran<br><br>2. Bertindak sebagai fasilitator utama di workshop<br><br>3. Pendampingan lapangan |
+| 2   | **Ahli Pengembangan Usaha / Fasilitator Utama** | a. Minimal S1 ekonomi/bisnis/sosial<br>b. Pengalaman minimal 3 tahun dalam pengembangan usaha kecil menengah atau fasilitasi masyarakat<br>c. Memiliki kemampuan fasilitasi yang kuat | 1. Memimpin pelatihan dan pendampingan aspek model bisnis, operasional, finansial, dan pemasaran<br>2. Bertindak sebagai fasilitator utama di workshop<br>3. Pendampingan lapangan |
 |     |                                            |                                                                             |                                                                                                                                       |
-| 3   | **Ahli Legal / Administrasi / Dokumentasi**    | a. Minimal S1 hukum/administrasi/komunikasi<br><br>b. Pengalaman minimal 3 tahun dalam advokasi legalitas usaha, administrasi program, atau dokumentasi | 1. Memimpin pelatihan dan pendampingan aspek legal dan kelembagaan<br><br>2. Mengelola administrasi dan keuangan program<br><br>3. Mendokumentasikan proses dan hasil |
+| 3   | **Ahli Legal / Administrasi / Dokumentasi**    | a. Minimal S1 hukum/administrasi/komunikasi<br>b. Pengalaman minimal 3 tahun dalam advokasi legalitas usaha, administrasi program, atau dokumentasi | 1. Memimpin pelatihan dan pendampingan aspek legal dan kelembagaan<br>2. Mengelola administrasi dan keuangan program<br>3. Mendokumentasikan proses dan hasil |
 |     |                                            |                                                                             |                                                                                                                                       |
-| 4   | **Spesialis Teknis / Lapangan**<br>(jika diperlukan, dapat direkrut per kegiatan) | a. Minimal D3 bidang relevan (pertanian, pariwisata, UMKM)<br><br>b. Pengalaman dalam implementasi teknis di lapangan | 1. Memberikan pendampingan teknis spesifik sesuai kebutuhan desa<br><br>2. Membantu fasilitator utama di lapangan |
+| 4   | **Spesialis Teknis / Lapangan**<br>(jika diperlukan, dapat direkrut per kegiatan) | a. Minimal D3 bidang relevan (pertanian, pariwisata, UMKM)<br>b. Pengalaman dalam implementasi teknis di lapangan | 1. Memberikan pendampingan teknis spesifik sesuai kebutuhan desa<br>2. Membantu fasilitator utama di lapangan |
 
 #### 6.2 Pembagian Peran
 
@@ -443,7 +443,7 @@ Program ini akan dilaksanakan oleh tim inti yang fleksibel, disesuaikan dengan k
 |     |                                      |                                            |                                                                       |
 |     |                                      | b. Ahli Pengembangan Usaha                 | Pendampingan teknis utama dan kunjungan rutin                     |
 |     |                                      |                                            |                                                                       |
-|     |                                      | c. Ahli Legal / Administrasi / Dokumentasi     | 1. Pengelolaan administrasi, pelaporan, dan dokumentasi<br><br>2. Pendampingan aspek legal/administrasi |
+|     |                                      | c. Ahli Legal / Administrasi / Dokumentasi     | 1. Pengelolaan administrasi, pelaporan, dan dokumentasi<br>2. Pendampingan aspek legal/administrasi |
 |     |                                      |                                            |                                                                       |
 |     |                                      | d. Spesialis Teknis / Lapangan<br>(jika relevan) | Pendampingan teknis spesifik di lapangan (jika relevan)           |
 
@@ -451,69 +451,37 @@ Program ini akan dilaksanakan oleh tim inti yang fleksibel, disesuaikan dengan k
 
 #### 7.1. Indikator Output
 
-##### 7.1.1. Tahap Inspirasi (Webinar)
-
-- Minimal 50 desa mengikuti webinar
-
-- Minimal 75% peserta menilai webinar bermanfaat
-
-- Minimal 30% desa peserta webinar mendaftar untuk workshop
-
-##### 7.1.2. Tahap Kapasitasi (Workshop)
-
-- Minimal 80% tim desa menyelesaikan seluruh sesi workshop
-
-- Minimal 90% desa peserta workshop menghasilkan dokumen perencanaan yang lengkap
-
-- Minimal 50% desa peserta workshop mendaftar untuk pendampingan
-
-##### 7.1.3. Tahap Implementasi (Pendampingan)
-
-- 100% desa terdampingi memiliki legalitas usaha yang lengkap
-
-- 100% desa terdampingi memiliki minimal satu produk/jasa yang siap dipasarkan
-
-- Minimal 80% desa terdampingi memiliki sistem pengelolaan usaha yang operasional
+| Tahap                                | Indikator Output                                                                                                                               |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1. Inspirasi (Webinar)**     | a. Minimal 50 desa mengikuti webinar<br>b. Minimal 75% peserta menilai webinar bermanfaat<br>c. Minimal 30% desa peserta webinar mendaftar untuk workshop |
+|                                      |                                                                                                                                                |
+| **2. Kapasitasi (Workshop)**   | a. Minimal 80% tim desa menyelesaikan seluruh sesi workshop<br>b. Minimal 90% desa peserta workshop menghasilkan dokumen perencanaan yang lengkap<br>c. Minimal 50% desa peserta workshop mendaftar untuk pendampingan |
+|                                      |                                                                                                                                                |
+| **3. Implementasi (Pendampingan)** | a. 100% desa terdampingi memiliki legalitas usaha yang lengkap<br>b. 100% desa terdampingi memiliki minimal satu produk/jasa yang siap dipasarkan<br>c. Minimal 80% desa terdampingi memiliki sistem pengelolaan usaha yang operasional |
 
 #### 7.2 Indikator Outcome
 
-##### 7.2.1. Jangka Pendek (0-6 bulan)
-
-- Terbentuknya kelembagaan usaha desa yang operasional
-
-- Tersedianya produk/jasa berbasis potensi desa
-
-- Terjalinnya kerja sama dengan minimal satu mitra bisnis
-
-##### 7.2.2. Jangka Menengah (6-12 bulan)
-
-- Peningkatan omset usaha desa minimal 20% dari baseline
-
-- Peningkatan jumlah tenaga kerja yang terlibat minimal 10%
-
-- Perluasan jangkauan pasar ke luar desa
-
-##### 7.2.3. Jangka Panjang (>12 bulan)
-
-- Peningkatan pendapatan asli desa minimal 15%
-
-- Peningkatan kesejahteraan warga yang terlibat dalam usaha
-
-- Keberlanjutan operasional usaha tanpa pendampingan intensif
+| Jangka Waktu                          | Indikator Outcome                                                                                                                               |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pendek<br>(0-6 bulan)**      | a. Terbentuknya kelembagaan usaha desa yang operasional<br>b. Tersedianya produk/jasa berbasis potensi desa<br>c. Terjalinnya kerja sama dengan minimal satu mitra bisnis |
+|                                       |                                                                                                                                                 |
+| **Menengah<br>(6-12 bulan)**   | a. Peningkatan omset usaha desa minimal 20% dari baseline<br>b. Peningkatan jumlah tenaga kerja yang terlibat minimal 10%<br>c. Perluasan jangkauan pasar ke luar desa |
+|                                       |                                                                                                                                                 |
+| **Panjang<br>(>12 bulan)**     | a. Peningkatan pendapatan asli desa minimal 15%<br>b. Peningkatan kesejahteraan warga yang terlibat dalam usaha<br>c. Keberlanjutan operasional usaha tanpa pendampingan intensif |
 
 #### 7.3 Metode Pengukuran
 
 Metode pengukuran keberhasilan program meliputi:
 
-1. Survei Baseline
+1. **Survei Baseline**
 
    Dilakukan di awal program untuk mengukur kondisi awal desa peserta.
 
-2. Dokumentasi Perkembangan Berkala
+2. **Dokumentasi Perkembangan Berkala**
 
    Pengumpulan data dan laporan dari tim pelaksana selama proses implementasi.
 
-3. Evaluasi Pasca-Program
+3. **Evaluasi Pasca-Program**
 
    Dilakukan setelah program berakhir untuk mengukur capaian outcome jangka menengah dan panjang melalui survei, wawancara, dan analisis data sekunder.
 
@@ -521,55 +489,23 @@ Metode pengukuran keberhasilan program meliputi:
 
 #### 8.1. Identifikasi Risiko
 
-##### 8.1.1. Risiko Teknis
-
-1. Keterbatasan akses internet untuk webinar
-
-2. Ketidakhadiran peserta dalam workshop
-
-3. Perubahan prioritas desa selama pendampingan
-
-##### 8.1.2. Risiko Operasional
-
-1. Keterbatasan anggaran desa untuk implementasi
-
-2. Konflik internal dalam pengelolaan usaha
-
-3. Pergantian kepemimpinan desa
-
-##### 8.1.3. Risiko Eksternal
-
-1. Perubahan kebijakan pemerintah
-
-2. Kondisi cuaca/alam yang menghambat
-
-3. Dinamika pasar yang tidak menguntungkan
+| Kategori Risiko                       | Daftar Risiko                                                                                                                               |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Risiko Teknis**                  | a. Keterbatasan akses internet untuk webinar<br>b. Ketidakhadiran peserta dalam workshop<br>c. Perubahan prioritas desa selama pendampingan |
+|                                       |                                                                                                                                             |
+| **Risiko Operasional**             | a. Keterbatasan anggaran desa untuk implementasi<br>b. Konflik internal dalam pengelolaan usaha<br>c. Pergantian kepemimpinan desa         |
+|                                       |                                                                                                                                             |
+| **Risiko Eksternal**               | a. Perubahan kebijakan pemerintah<br>b. Kondisi cuaca/alam yang menghambat<br>c. Dinamika
 
 #### 8.2 Strategi Mitigasi
 
-##### 8.2.1. Untuk Risiko Teknis
-
-1. Penyediaan rekaman webinar dan materi offline
-
-2. Komitmen tertulis dan deposit keikutsertaan workshop
-
-3. Perjanjian pendampingan yang mengikat
-
-##### 8.2.2. Untuk Risiko Operasional
-
-1. Identifikasi sumber pendanaan alternatif
-
-2. Pelatihan manajemen konflik dan tata kelola
-
-3. Pelibatan multi-stakeholder di desa
-
-##### 8.2.3. Untuk Risiko Eksternal
-
-1. Monitoring perubahan kebijakan dan adaptasi cepat
-
-2. Penyesuaian jadwal kegiatan yang fleksibel
-
-3. Diversifikasi produk dan pasar
+| Kategori Risiko                       | Strategi Mitigasi                                                                                                                               |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Risiko Teknis**            | a. Penyediaan rekaman webinar dan materi offline<br>b. Komitmen tertulis dan deposit keikutsertaan workshop<br>c. Perjanjian pendampingan yang mengikat |
+|                                       |                                                                                                                                                 |
+| **Risiko Operasional**       | a. Identifikasi sumber pendanaan alternatif<br>b. Pelatihan manajemen konflik dan tata kelola<br>c. Pelibatan multi-stakeholder di desa |
+|                                       |                                                                                                                                                 |
+| **Risiko Eksternal**         | a. Monitoring perubahan kebijakan dan adaptasi cepat<br>b. Penyesuaian jadwal kegiatan yang fleksibel<br>c. Diversifikasi produk dan pasar |
 
 ### 9. MEKANISME PEMBIAYAAN
 
@@ -577,109 +513,27 @@ Metode pengukuran keberhasilan program meliputi:
 
 Struktur biaya program mencakup biaya personel dan biaya operasional lainnya per tahapan:
 
-##### 9.1.1. Tahap Inspirasi (Webinar)
-
-###### 9.1.1.1. Biaya per Desa
-
-[jumlah sesuai ketentuan]
-
-###### 9.1.1.2. Komponen Biaya
-
-1. Biaya Personel (alokasi tim pelaksana untuk persiapan & pelaksanaan webinar)
-  
-2. Akses platform webinar premium
-  
-3. Honor pembicara eksternal (3 orang)
-  
-4. Materi digital
-  
-5. Rekaman video
-  
-6. Sertifikat digital
-  
-7. Biaya operasional lainnya (komunikasi, internet, dll)
-
-##### 9.1.2 Tahap Kapasitasi (Workshop)
-
-###### 9.1.2.1. Biaya per Tim Desa
-
-[jumlah sesuai ketentuan]
-
-###### 9.1.2.2. Komponen Biaya
-
-1. Biaya Personel (alokasi tim pelaksana untuk persiapan & pelaksanaan workshop)
-  
-2. Sewa tempat workshop
-  
-3. Modul dan alat bantu pelatihan
-  
-4. Konsumsi selama 3 hari
-  
-5. Sertifikat fisik
-  
-6. Biaya operasional lainnya (transportasi, akomodasi jika di luar kota, dll)
-
-##### 9.1.3 Tahap Pendampingan
-
-###### 9.1.3.1. Biaya per Desa
-
-[jumlah sesuai ketentuan]
-
-###### 9.1.3.2. Komponen Biaya
-
-1. Biaya Personel (alokasi tim pelaksana untuk pendampingan selama 6 bulan)
-
-2. Kunjungan lapangan (minimal 6x)
-
-3. Konsultasi jarak jauh selama 6 bulan
-
-4. Fasilitasi akses ke jaringan mitra
-
-5. Laporan dan dokumentasi
-
-6. Biaya operasional lainnya (transportasi, akomodasi, komunikasi, dll)
+| Tahap | Biaya per Unit | Komponen Biaya |
+|-------|----------------|----------------|
+| **Inspirasi (Webinar)** | **Biaya per Desa**: [jumlah sesuai ketentuan] | 1. Biaya Personel (alokasi tim pelaksana untuk persiapan & pelaksanaan webinar)<br>2. Akses platform webinar premium<br>3. Honor pembicara eksternal (3 orang)<br>4. Materi digital<br>5. Rekaman video<br>6. Sertifikat digital<br>7. Biaya operasional lainnya (komunikasi, internet, dll) |
+|   |   |   |
+| **Kapasitasi (Workshop)** | **Biaya per Tim Desa**: [jumlah sesuai ketentuan] | 1. Biaya Personel (alokasi tim pelaksana untuk persiapan & pelaksanaan workshop)<br>2. Sewa tempat workshop<br>3. Modul dan alat bantu pelatihan<br>4. Konsumsi selama 3 hari<br>5. Sertifikat fisik<br>6. Biaya operasional lainnya (transportasi, akomodasi jika di luar kota, dll) |
+|   |   |   |
+| **Pendampingan** | **Biaya per Desa**: [jumlah sesuai ketentuan] | 1. Biaya Personel (alokasi tim pelaksana untuk pendampingan selama 6 bulan)<br>2. Kunjungan lapangan (minimal 6x)<br>3. Konsultasi jarak jauh selama 6 bulan<br>4. Fasilitasi akses ke jaringan mitra<br>5. Laporan dan dokumentasi<br>6. Biaya operasional lainnya (transportasi, akomodasi, komunikasi, dll) |
 
 #### 9.2. Opsi Pembiayaan
 
-##### 9.2.1. Dana Desa
-
-- Dapat dialokasikan untuk kegiatan peningkatan kapasitas dan pengembangan BUMDes
-
-- Perlu dimasukkan dalam RKPDes dan APBDes
-
-- Disarankan mengalokasikan dari pos pemberdayaan masyarakat atau pengembangan ekonomi
-
-##### 9.2.2. Bantuan Provinsi/Kabupaten
-
-- Program bantuan keuangan khusus untuk pengembangan ekonomi desa
-
-- Hibah atau bantuan sosial dari pemerintah daerah
-
-- Dapat diakses melalui dinas terkait (PMD, Koperasi UKM, dll)
-
-##### 9.2.3. Program CSR Perusahaan
-
-- Kemitraan dengan perusahaan yang memiliki wilayah operasi di sekitar desa
-
-- Program CSR bidang pemberdayaan ekonomi masyarakat
-
-- Dapat difasilitasi melalui forum CSR daerah
-
-##### 9.2.4. Kemitraan Multipihak
-
-- Penggabungan sumber dana dari berbagai pihak
-
-- Pembagian biaya antara desa, pemerintah daerah, dan pihak swasta
-
-- Memanfaatkan skema Program Kemitraan dan Bina Lingkungan (PKBL)
-
-##### 9.2.5. Skema Khusus
-
-- Pembayaran bertahap sesuai pencapaian milestone
-
-- Pola bagi hasil dari keuntungan usaha yang dikembangkan
-
-- Skema kerjasama operasional (KSO) antara Cakra Consulting dengan desa
+| Opsi Pembiayaan | Detail |
+|-----------------|--------|
+| **1. Dana Desa** | - Dapat dialokasikan untuk kegiatan peningkatan kapasitas dan pengembangan BUMDes<br>- Perlu dimasukkan dalam RKPDes dan APBDes<br>- Disarankan mengalokasikan dari pos pemberdayaan masyarakat atau pengembangan ekonomi |
+|   |   |
+| **2. Bantuan Provinsi/Kabupaten** | - Program bantuan keuangan khusus untuk pengembangan ekonomi desa<br>- Hibah atau bantuan sosial dari pemerintah daerah<br>- Dapat diakses melalui dinas terkait (PMD, Koperasi UKM, dll) |
+|   |   |
+| **3. Program CSR Perusahaan** | - Kemitraan dengan perusahaan yang memiliki wilayah operasi di sekitar desa<br>- Program CSR bidang pemberdayaan ekonomi masyarakat<br>- Dapat difasilitasi melalui forum CSR daerah |
+|   |   |
+| **4. Kemitraan Multipihak** | - Penggabungan sumber dana dari berbagai pihak<br>- Pembagian biaya antara desa, pemerintah daerah, dan pihak swasta<br>- Memanfaatkan skema Program Kemitraan dan Bina Lingkungan (PKBL) |
+|   |   |
+| **5. Skema Khusus** | - Pembayaran bertahap sesuai pencapaian milestone<br>- Pola bagi hasil dari keuntungan usaha yang dikembangkan<br>- Skema kerjasama operasional (KSO) antara Cakra Consulting dengan desa |
 
 #### 9.3. Prosedur Pembayaran
 
@@ -695,121 +549,26 @@ Struktur biaya program mencakup biaya personel dan biaya operasional lainnya per
 
 #### 10.1 Materi Webinar
 
-##### 10.1.1. Sesi Pengembangan Desa Wisata
-
-###### 10.1.1.1. Topik-topik
-
-1. Identifikasi potensi wisata desa (alam, budaya, kuliner, dll)
-
-2. Pengembangan atraksi dan aktivitas wisata
-
-3. Pengembangan amenitas dan aksesibilitas
-
-4. Pengelolaan pariwisata berbasis masyarakat
-
-5. Pemasaran digital desa wisata
-
-6. Pengelolaan dampak pariwisata
-
-7. Studi kasus desa wisata sukses
-
-###### 10.1.1.2. Narasumber Potensial
-
-1. Pengelola desa wisata sukses
-
-2. Praktisi pengembangan pariwisata berbasis masyarakat
-
-3. Pemenang penghargaan desa wisata tingkat nasional
-
-##### 10.1.2. Sesi Pengembangan Agribisnis/Peternakan Desa
-
-###### 10.1.2.1. Topik-topik
-
-1. Identifikasi komoditas unggulan pertanian/peternakan
-
-2. Penerapan teknologi tepat guna
-
-3. Peningkatan nilai tambah produk pertanian
-
-4. Pengembangan rantai pasok dan pemasaran
-
-5. Sertifikasi dan standarisasi produk
-
-6. Pengelolaan kelompok tani/ternak
-
-7. Studi kasus agribisnis desa sukses
-
-###### 10.1.2.2. Narasumber Potensial
-
-1. Pemimpin kelompok tani/ternak sukses
-
-2. Pelaku usaha pengolahan hasil pertanian desa
-
-3. Peraih penghargaan inovasi pertanian/peternakan desa
-
-##### 10.1.3 Sesi Pengembangan Industri Kreatif/UMKM Desa
-
-###### 10.1.3.1. Topik-topik
-
-1. Identifikasi potensi industri kreatif berbasis kearifan lokal
-
-2. Pengembangan desain dan kualitas produk
-
-3. Penguatan kapasitas produksi
-
-4. Branding dan pemasaran produk desa
-
-5. Pemanfaatan platform digital untuk pemasaran
-
-6. Pengelolaan keuangan usaha kreatif
-
-7. Studi kasus industri kreatif desa sukses
-
-###### 10.1.3.2. Narasumber Potensial
-
-1. Pelaku UMKM desa yang telah menembus pasar nasional/ekspor
-
-2. Praktisi pengembangan ekonomi kreatif berbasis desa
-
-3. Pemenang penghargaan produk unggulan desa
+| Sesi | Topik-topik | Narasumber Potensial |
+|------|-------------|----------------------|
+| **1. Pengembangan Desa Wisata** | 1. Identifikasi potensi wisata desa (alam, budaya, kuliner, dll)<br>2. Pengembangan atraksi dan aktivitas wisata<br>3. Pengembangan amenitas dan aksesibilitas<br>4. Pengelolaan pariwisata berbasis masyarakat<br>5. Pemasaran digital desa wisata<br>6. Pengelolaan dampak pariwisata<br>7. Studi kasus desa wisata sukses | 1. Pengelola desa wisata sukses<br>2. Praktisi pengembangan pariwisata berbasis masyarakat<br>3. Pemenang penghargaan desa wisata tingkat nasional |
+|   |   |   |
+| **2. Pengembangan Agribisnis / Peternakan Desa** | 1. Identifikasi komoditas unggulan pertanian/peternakan<br>2. Penerapan teknologi tepat guna<br>3. Peningkatan nilai tambah produk pertanian<br>4. Pengembangan rantai pasok dan pemasaran<br>5. Sertifikasi dan standarisasi produk<br>6. Pengelolaan kelompok tani/ternak<br>7. Studi kasus agribisnis desa sukses | 1. Pemimpin kelompok tani/ternak sukses<br>2. Pelaku usaha pengolahan hasil pertanian desa<br>3. Peraih penghargaan inovasi pertanian/peternakan desa |
+|   |   |   |
+| **3. Pengembangan Industri Kreatif / UMKM Desa** | 1. Identifikasi potensi industri kreatif berbasis kearifan lokal<br>2. Pengembangan desain dan kualitas produk<br>3. Penguatan kapasitas produksi<br>4. Branding dan pemasaran produk desa<br>5. Pemanfaatan platform digital untuk pemasaran<br>6. Pengelolaan keuangan usaha kreatif<br>7. Studi kasus industri kreatif desa sukses | 1. Pelaku UMKM desa yang telah menembus pasar nasional/ekspor<br>2. Praktisi pengembangan ekonomi kreatif berbasis desa<br>3. Pemenang penghargaan produk unggulan desa |
 
 #### 10.2. Materi Workshop
 
 ##### 10.2.1. Pemetaan dan Analisis Potensi Desa
 
-###### 10.2.1.1. Detail Materi
+###### 10.2.1.1. Topik
 
-1. Teknik pemetaan partisipatif sumber daya desa
-
-   - Pemetaan sumber daya alam (lahan, air, mineral, dll)
-
-   - Pemetaan sumber daya manusia (keterampilan, pengetahuan, budaya)
-
-   - Pemetaan infrastruktur dan aksesibilitas
-
-   - Pemetaan pasar dan peluang ekonomi
-
-2. Teknik analisis data desa untuk pengambilan keputusan
-
-   - Penggunaan data desa untuk identifikasi potensi
-
-   - Analisis tren dan perubahan demografis
-
-   - Analisis pola konsumsi dan kebutuhan pasar
-
-3. Analisis SWOT dan prioritasi potensi
-
-   - Identifikasi kekuatan dan kelemahan internal
-
-   - Identifikasi peluang dan ancaman eksternal
-
-   - Penentuan prioritas pengembangan
-
-4. Benchmarking dengan desa sukses
-
-   - Pembelajaran dari praktik baik
-
-   - Adaptasi model yang sesuai dengan konteks lokal
+| Topik Utama | Subtopik |
+|-------------|----------|
+| **1. Teknik pemetaan partisipatif sumber daya desa** | a. Pemetaan sumber daya alam (lahan, air, mineral, dll)<br>b. Pemetaan sumber daya manusia (keterampilan, pengetahuan, budaya)<br>c. Pemetaan infrastruktur dan aksesibilitas<br>d. Pemetaan pasar dan peluang ekonomi |
+| **2. Teknik analisis data desa untuk pengambilan keputusan** | a. Penggunaan data desa untuk identifikasi potensi<br>b. Analisis tren dan perubahan demografis<br>c. Analisis pola konsumsi dan kebutuhan pasar |
+| **3. Analisis SWOT dan prioritasi potensi** | a. Identifikasi kekuatan dan kelemahan internal<br>b. Identifikasi peluang dan ancaman eksternal<br>c. Penentuan prioritas pengembangan |
+| **4. Benchmarking dengan desa sukses** | a. Pembelajaran dari praktik baik<br>b. Adaptasi model yang sesuai dengan konteks lokal |
 
 ###### 10.2.1.2. Alat Bantu
 
@@ -823,43 +582,14 @@ Struktur biaya program mencakup biaya personel dan biaya operasional lainnya per
 
 ##### 10.2.2 Perencanaan Model dan Strategi Bisnis
 
-###### 10.2.2.1. Detail Materi
+###### 10.2.2.1. Topik
 
-1. Pengembangan Business Model Canvas
-
-   - Segmen pelanggan dan proposisi nilai
-
-   - Saluran distribusi dan hubungan pelanggan
-
-   - Sumber pendapatan dan struktur biaya
-
-   - Mitra kunci dan aktivitas utama
-
-2. Perencanaan operasional
-
-   - Rencana produksi dan kapasitas
-
-   - Manajemen rantai pasok
-
-   - Standar kualitas dan prosedur operasi
-
-3. Pengembangan tata kelola
-
-   - Struktur organisasi usaha desa
-
-   - Pembagian peran dan tanggung jawab
-
-   - Sistem pengambilan keputusan
-
-   - Manajemen konflik
-
-4. Manajemen sumber daya
-
-   - Pengembangan SDM dan keterampilan
-
-   - Pengelolaan aset produktif
-
-   - Pengembangan teknologi tepat guna
+| Topik Utama | Subtopik |
+|-------------|----------|
+| **1. Pengembangan Business Model Canvas** | a. Segmen pelanggan dan proposisi nilai<br>b. Saluran distribusi dan hubungan pelanggan<br>c. Sumber pendapatan dan struktur biaya<br>d. Mitra kunci dan aktivitas utama |
+| **2. Perencanaan operasional** | a. Rencana produksi dan kapasitas<br>b. Manajemen rantai pasok<br>c. Standar kualitas dan prosedur operasi |
+| **3. Pengembangan tata kelola** | a. Struktur organisasi usaha desa<br>b. Pembagian peran dan tanggung jawab<br>c. Sistem pengambilan keputusan<br>d. Manajemen konflik |
+| **4. Manajemen sumber daya** | a. Pengembangan SDM dan keterampilan<br>b. Pengelolaan aset produktif<br>c. Pengembangan teknologi tepat guna |
 
 ###### 10.2.2.2. Alat Bantu
 
@@ -873,45 +603,17 @@ Struktur biaya program mencakup biaya personel dan biaya operasional lainnya per
 
 ##### 10.2.3. Perencanaan Finansial dan Implementasi
 
-###### 10.2.3.1. Detail Materi
+###### 10.2.3.1. Topik
 
-1. Penyusunan proyeksi keuangan
-
-   - Estimasi investasi awal
-
-   - Proyeksi pendapatan dan biaya operasional
-
-   - Analisis arus kas dan titik impas
-
-   - Penilaian kelayakan finansial
-
-2. Strategi penggalangan modal
-
-   - Identifikasi sumber pendanaan
-
-   - Penyusunan proposal pendanaan
-
-   - Negosiasi dan manajemen kemitraan finansial
-
-3. Rencana pemasaran
-
-   - Strategi positioning produk/jasa
-
-   - Penetapan harga
-
-   - Strategi promosi dan distribusi
-
-   - Pemasaran digital untuk usaha desa
-
-4. Rencana implementasi
-
-   - Penyusunan milestone dan indikator
-
-   - Jadwal implementasi
-
-   - Manajemen risiko
-
-   - Sistem monitoring dan evaluasi
+| Topik Utama | Subtopik |
+|-------------|----------|
+| **1. Penyusunan proyeksi keuangan** | a. Estimasi investasi awal<br>b. Proyeksi pendapatan dan biaya operasional<br>c. Analisis arus kas dan titik impas<br>d. Penilaian kelayakan finansial |
+|   |   |
+| **2. Strategi penggalangan modal** | a. Identifikasi sumber pendanaan<br>b. Penyusunan proposal pendanaan<br>c. Negosiasi dan manajemen kemitraan finansial |
+|   |   |
+| **3. Rencana pemasaran** | a. Strategi positioning produk/jasa<br>b. Penetapan harga<br>c. Strategi promosi dan distribusi<br>d. Pemasaran digital untuk usaha desa |
+|   |   |
+| **4. Rencana implementasi** | a. Penyusunan milestone dan indikator<br>b. Jadwal implementasi<br>c. Manajemen risiko<br>d. Sistem monitoring dan evaluasi |
 
 ###### 10.2.3.2. Alat Bantu
 
@@ -927,33 +629,17 @@ Struktur biaya program mencakup biaya personel dan biaya operasional lainnya per
 
 ##### 10.3.1 Pendampingan Aspek Legal dan Kelembagaan
 
-###### 10.3.1.1. Detail Pendampingan
+###### 10.3.1.1. Aktivitas
 
-1. Penguatan kelembagaan BUMDes/Koperasi
+| Aktivitas | Subaktivitas |
+|-----------|--------------|
+| **1. Penguatan kelembagaan BUMDes / Koperasi** | a. Penyusunan/revisi AD/ART<br>b. Penguatan struktur organisasi<br>c. Pengembangan sistem tata kelola |
+|   |   |
+| **2. Fasilitasi perizinan usaha** | a. IUMK/NIB<br>b. PIRT/halal/sertifikasi produk<br>c. Perizinan sektor spesifik |
+|   |   |
+| **3. Penyusunan dokumen legal** | a. Kontrak kerjasama<br>b. Perjanjian dengan pihak ketiga<br>c. Perlindungan aset dan kekayaan intelektual |
 
-   - Penyusunan/revisi AD/ART
-
-   - Penguatan struktur organisasi
-
-   - Pengembangan sistem tata kelola
-
-2. Fasilitasi perizinan usaha
-
-   - IUMK/NIB
-
-   - PIRT/halal/sertifikasi produk
-
-   - Perizinan sektor spesifik
-
-3. Penyusunan dokumen legal
-
-   - Kontrak kerjasama
-
-   - Perjanjian dengan pihak ketiga
-
-   - Perlindungan aset dan kekayaan intelektual
-
-###### 10.3.1.2. Metode Pendampingan
+###### 10.3.1.2. Metode
 
 1. Konsultasi aspek legal
 
@@ -965,33 +651,17 @@ Struktur biaya program mencakup biaya personel dan biaya operasional lainnya per
 
 ##### 10.3.2. Pendampingan Aspek Teknis dan Operasional
 
-###### 10.3.2.1. Detail Pendampingan
+###### 10.3.2.1. Aktivitas
 
-1. Pengembangan produk/jasa
+| Aktivitas | Subaktivitas |
+|-----------|--------------|
+| **1. Pengembangan produk / jasa** | a. Peningkatan kualitas dan standarisasi<br>b. Diversifikasi produk<br>c. Pengemasan dan presentasi |
+|   |   |
+| **2. Penerapan teknologi tepat guna** | a. Identifikasi kebutuhan teknologi<br>b. Pelatihan penggunaan teknologi<br>c. Adaptasi teknologi sesuai konteks lokal |
+|   |   |
+| **3. Pengembangan sistem operasional** | a. Penyusunan SOP<br>b. Sistem pengawasan kualitas<br>c. Efisiensi proses produksi |
 
-   - Peningkatan kualitas dan standarisasi
-
-   - Diversifikasi produk
-
-   - Pengemasan dan presentasi
-
-2. Penerapan teknologi tepat guna
-
-   - Identifikasi kebutuhan teknologi
-
-   - Pelatihan penggunaan teknologi
-
-   - Adaptasi teknologi sesuai konteks lokal
-
-3. Pengembangan sistem operasional
-
-   - Penyusunan SOP
-
-   - Sistem pengawasan kualitas
-
-   - Efisiensi proses produksi
-
-###### 10.3.2.2. Metode Pendampingan
+###### 10.3.2.2. Metode
 
 1. Pelatihan teknis sesuai kebutuhan
 
@@ -1003,33 +673,17 @@ Struktur biaya program mencakup biaya personel dan biaya operasional lainnya per
 
 ##### 10.3.3. Pendampingan Aspek Finansial
 
-###### 10.3.3.1. Detail Pendampingan
+###### 10.3.3.1. Aktivitas
 
-1. Pengelolaan keuangan usaha
+| Aktivitas | Subaktivitas |
+|-----------|--------------|
+| **1. Pengelolaan keuangan usaha** | a. Pembukuan sederhana<br>b. Manajemen arus kas<br>c. Pengendalian biaya |
+|   |   |
+| **2. Fasilitasi akses permodalan** | a. KUR atau kredit program lainnya<br>b. Dana hibah atau bantuan pemerintah<br>c. Investasi atau program CSR |
+|   |   |
+| **3. Pengembangan sistem akuntabilitas** | a. Pelaporan keuangan berkala<br>b. Transparansi pengelolaan<br>c. Audit sederhana |
 
-   - Pembukuan sederhana
-
-   - Manajemen arus kas
-
-   - Pengendalian biaya
-
-2. Fasilitasi akses permodalan
-
-   - KUR atau kredit program lainnya
-
-   - Dana hibah atau bantuan pemerintah
-
-   - Investasi atau program CSR
-
-3. Pengembangan sistem akuntabilitas
-
-   - Pelaporan keuangan berkala
-
-   - Transparansi pengelolaan
-
-   - Audit sederhana
-
-###### 10.3.3.2. Metode Pendampingan
+###### 10.3.3.2. Metode
 
 1. Pelatihan manajemen keuangan
 
@@ -1041,33 +695,17 @@ Struktur biaya program mencakup biaya personel dan biaya operasional lainnya per
 
 ##### 10.3.4. Pendampingan Aspek Pemasaran
 
-###### 10.3.4.1. Detail Pendampingan
+###### 10.3.4.1. Aktivitas
 
-1. Pengembangan brand dan identitas
+| Aktivitas | Subaktivitas |
+|-----------|--------------|
+| **1. Pengembangan brand dan identitas** | a. Pembuatan logo dan identitas visual<br>b. Penyusunan narasi produk<br>c. Pengembangan materi promosi |
+|   |   |
+| **2. Implementasi strategi pemasaran** | a. Pemasaran konvensional<br>b. Pemasaran digital (media sosial, marketplace)<br>c. Pengembangan jaringan distribusi |
+|   |   |
+| **3. Pengembangan jaringan kemitraan** | a. Fasilitasi akses ke pasar yang lebih luas<br>b. Matchmaking dengan potensial buyer<br>c. Partisipasi dalam pameran/eksibisi |
 
-   - Pembuatan logo dan identitas visual
-
-   - Penyusunan narasi produk
-
-   - Pengembangan materi promosi
-
-2. Implementasi strategi pemasaran
-
-   - Pemasaran konvensional
-
-   - Pemasaran digital (media sosial, marketplace)
-
-   - Pengembangan jaringan distribusi
-
-3. Pengembangan jaringan kemitraan
-
-   - Fasilitasi akses ke pasar yang lebih luas
-
-   - Matchmaking dengan potensial buyer
-
-   - Partisipasi dalam pameran/eksibisi
-
-###### 10.3.4.2. Metode Pendampingan
+###### 10.3.4.2. Metode
 
 1. Pelatihan pemasaran digital
 
@@ -1081,83 +719,15 @@ Struktur biaya program mencakup biaya personel dan biaya operasional lainnya per
 
 #### 11.1. Jenis Laporan
 
-##### 11.1.1. Laporan Webinar
-
-###### 11.1.1.1. Komponen Laporan
-
-1. Daftar peserta dan rekapitulasi kehadiran
-
-2. Ringkasan materi presentasi pembicara
-
-3. Dokumentasi tanya jawab dan diskusi
-
-4. Hasil evaluasi peserta
-
-5. Rekomendasi tindak lanjut
-
-6. Dokumentasi foto/video
-
-###### 11.1.1.2. Waktu Penyampaian
-
-Maksimal 1 minggu setelah webinar
-
-##### 11.1.2. Laporan Workshop
-
-###### 11.1.2.1. Komponen Laporan
-
-1. Daftar peserta dan rekapitulasi kehadiran
-
-2. Ringkasan proses dan hasil workshop
-
-3. Evaluasi capaian pembelajaran
-
-4. Penilaian dokumen perencanaan yang dihasilkan
-
-5. Rekomendasi pendampingan lanjutan
-
-6. Dokumentasi foto/video
-
-###### 11.1.2.2. Waktu Penyampaian
-
-Maksimal 1 minggu setelah workshop
-
-##### 11.1.3. Laporan Pendampingan Berkala
-
-###### 11.1.3.1. Komponen Laporan
-
-1. Rekam proses pendampingan
-
-2. Pencapaian milestone implementasi
-
-3. Tantangan dan solusi yang diterapkan
-
-4. Rencana pendampingan periode berikutnya
-
-5. Dokumentasi foto/video
-
-###### 11.1.3.2. Waktu Penyampaian
-
-Setiap bulan selama masa pendampingan
-
-##### 11.1.4. Laporan Akhir Pendampingan
-
-###### 11.1.4.1. Komponen Laporan
-
-1. Ringkasan keseluruhan proses pendampingan
-
-2. Pencapaian indikator keberhasilan
-
-3. Analisis perubahan dan dampak
-
-4. Pembelajaran dan praktik baik
-
-5. Rekomendasi keberlanjutan
-
-6. Dokumentasi komprehensif
-
-###### 11.1.4.2. Waktu Penyampaian
-
-Maksimal 2 minggu setelah pendampingan berakhir
+| Jenis | Komponen |
+|-------|----------|
+| **Laporan Webinar**<br>(selambatnya H+7) | 1. Daftar peserta dan rekapitulasi kehadiran<br>2. Ringkasan materi presentasi pembicara<br>3. Dokumentasi tanya jawab dan diskusi<br>4. Hasil evaluasi peserta<br>5. Rekomendasi tindak lanjut<br>6. Dokumentasi foto/video |
+|   |   |
+| **Laporan Workshop**<br>(selambatnya H+7) | 1. Daftar peserta dan rekapitulasi kehadiran<br>2. Ringkasan proses dan hasil workshop<br>3. Evaluasi capaian pembelajaran<br>4. Penilaian dokumen perencanaan yang dihasilkan<br>5. Rekomendasi pendampingan lanjutan<br>6. Dokumentasi foto/video |
+|   |   |
+| **Laporan Pendampingan Berkala**<br>(setiap bulan selama pendampingan) | 1. Rekam proses pendampingan<br>2. Pencapaian milestone implementasi<br>3. Tantangan dan solusi yang diterapkan<br>4. Rencana pendampingan periode berikutnya<br>5. Dokumentasi foto/video |
+|   |   |
+| **Laporan Akhir Pendampingan**<br>(selambatnya H+14) | 1. Ringkasan keseluruhan proses pendampingan<br>2. Pencapaian indikator keberhasilan<br>3. Analisis perubahan dan dampak<br>4. Pembelajaran dan praktik baik<br>5. Rekomendasi keberlanjutan<br>6. Dokumentasi komprehensif |
 
 #### 11.2. Format Dokumentasi
 
