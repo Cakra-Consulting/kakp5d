@@ -803,29 +803,12 @@ Dilaksanakan pada pekan 1 dan 2.
 
 #### 1.1. Aktivitas
 
-##### 1.1.1. Pembentukan Tim Inti
+Berikut tabel aktivitas dan deskripsinya sesuai permintaan:
 
-Tim inti akan terdiri dari peran gabungan sesuai kebutuhan, dengan estimasi 4-5 orang pelaksana, yang mencakup:
-
-1. Manajer Program
-
-2. Ahli Pengembangan Usaha/Fasilitator Utama
-
-3. Ahli Legal/Administrasi/Dokumentasi
-
-4. Spesialis Teknis/Lapangan (jika diperlukan).
-
-##### 1.1.2. Lokakarya Perencanaan
-
-1. Pemetaan dokumen prioritas berdasarkan:
-
-   - Urgensi pemasaran
-
-   - Kebutuhan pilot project
-
-   - Kompleksitas penyusunan
-
-2. Penyusunan timeline terperinci
+| Aktivitas | Deskripsi |
+|-----------|-----------|
+| **1. Pembentukan Tim Inti** | Tim inti akan terdiri dari peran gabungan sesuai kebutuhan, dengan estimasi 4-5 orang pelaksana, yang mencakup:<br><br>1. Manajer Program<br>2. Ahli Pengembangan Usaha/Fasilitator Utama<br>3. Ahli Legal/Administrasi/Dokumentasi<br>4. Spesialis Teknis/Lapangan (jika diperlukan). | 
+| **2. Lokakarya Perencanaan** | 1. Pemetaan dokumen prioritas, berdasarkan:<br>   - Urgensi pemasaran<br>   - Kebutuhan pilot project<br>   - Kompleksitas penyusunan<br><br>2. Penyusunan timeline terperinci |
 
 #### 1.2. Output
 
@@ -843,12 +826,12 @@ Dilaksanakan pekan 3 sampai 6.
 
 #### 2.1. Aktivitas & Timeline
 
-| Minggu | Fokus | Dokumen/Materi | Tim Penanggung Jawab (Peran Gabungan) | Output Target |
+| Pekan | Fokus | Dokumen/Materi | Tim Penanggung Jawab (Peran Gabungan) | Output Target |
 |--------|-------|----------------|---------------------------------------|---------------|
-| **3**  | **Pemasaran** | - Executive Summary<br>- Brosur Digital<br>- Template Media Sosial | Ahli Pengembangan Usaha + Ahli Legal/Admin/Dokumentasi + Manajer | 3 dokumen siap review |
-| **4**  | **Legal** | - Template MoU<br>- Formulir Pendaftaran<br>- Surat Penawaran | Ahli Legal/Administrasi/Dokumentasi | Dokumen draft hukum |
-| **5**  | **Teknis** | - Modul Webinar<br>- Panduan Fasilitator Workshop<br>- Assessment Tool | Ahli Pengembangan Usaha + Spesialis Teknis/Lapangan (jika relevan) | Modul dasar siap uji |
-| **6**  | **Pilot** | - Kriteria Desa Pilot<br>- Rencana Implementasi<br>- Instrumen Monitoring | Ahli Pengembangan Usaha + Spesialis Teknis/Lapangan (jika relevan) + Manajer | Paket persiapan pilot |
+| **3**  | **Pemasaran** | a. Executive Summary<br>b. Brosur Digital<br>c. Template Media Sosial | - Ahli Pengembangan Usaha<br> - Ahli Legal / Admin / Dokumentasi + Manajer | 3 dokumen siap review |
+| **4**  | **Legal** | a. Template MoU<br>b. Formulir Pendaftaran<br>c. Surat Penawaran | Ahli Legal / Administrasi / Dokumentasi | Dokumen draft hukum |
+| **5**  | **Teknis** | a. Modul Webinar<br>b. Panduan Fasilitator Workshop<br>c. Assessment Tool | - Ahli Pengembangan Usaha<br>- Spesialis Teknis / Lapangan (jika relevan) | Modul dasar siap uji |
+| **6**  | **Pilot** | a. Kriteria Desa Pilot<br>b. Rencana Implementasi<br>c. Instrumen Monitoring | - Ahli Pengembangan Usaha<br> - Spesialis Teknis / Lapangan (jika relevan) + Manajer | Paket persiapan pilot |
 
 #### 2.2. Proses Kerja
 
@@ -866,25 +849,11 @@ Dilaksanakan pekan 7 dan 8.
 
 #### 3.1. Aktivitas
 
-1. Uji Coba Materi
-
-   - Dilaksanakan di 2 desa percontohan
-   - Simulasi webinar dengan 10 peserta
-   - Uji coba formulir pendaftaran
-   - Tes protokol pendampingan
-
-2. Revisi Dokumen
-
-   - Dilakukan berdasarkan feedback
-   - Penyederhanaan bahasa teknis
-   - Penyesuaian dengan budaya lokal
-   - Optimasi format visual
-
-3. Produksi Massal
-
-   - Cetak terbatas brosur fisik
-   - Render video profil final
-   - Setup sistem database online
+| Aktivitas | Deskripsi |
+|-----------|-----------|
+| **1. Uji Coba Materi** | - Dilaksanakan di 2 desa percontohan<br>- Simulasi webinar dengan 10 peserta<br>- Uji coba formulir pendaftaran<br>- Tes protokol pendampingan |
+| **2. Revisi Dokumen** | - Dilakukan berdasarkan feedback<br>- Penyederhanaan bahasa teknis<br>- Penyesuaian dengan budaya lokal<br>- Optimasi format visual |
+| **3. Produksi Massal** | - Cetak terbatas brosur fisik<br>- Render video profil final<br>- Setup sistem database online |
 
 #### 3.2. Output
 
@@ -902,34 +871,17 @@ Dilaksanakan pekan 9 sampai 12.
 
 #### 4.1. Strategi Online
 
-1. Kampanye Digital
-
-   - Seri posting edukatif di Instagram/FB: "7 Potensi Desa Terpendam"
-   - Webinar teaser gratis: "Sukseskan Dana Desa dengan 3 Langkah"
-   - Email blast ke 500+ pemerintah desa terdaftar
-
-2. Platform Khusus
-
-   Aplikasi web interaktif dengan fitur:
-      - Self-assessment potensi desa
-      - Simulator manfaat program
-      - Konsultasi gratis via:
-        - live chat dengan asisten AI
-        - semi-live chat dengan konsultan
+| Strategi | Implementasi |
+|----------|--------------|
+| **1. Kampanye Digital** | a. Seri posting edukatif di Instagram/FB: "7 Potensi Desa Terpendam"<br>b. Webinar teaser gratis: "Sukseskan Dana Desa dengan 3 Langkah"<br>c. Email blast ke 500+ pemerintah desa terdaftar | 
+| **2. Platform Khusus** | Aplikasi web interaktif dengan fitur:<br>a. Self-assessment potensi desa<br>b. Simulator manfaat program<br>c. Konsultasi gratis via:<br>  - live chat dengan asisten AI<br>  - semi-live chat dengan konsultan |
 
 #### 4.2. Strategi Offline
 
-1. Roadshow Kabupaten
-
-   - 5 kota/kabupaten prioritas
-   - Kolaborasi dengan Dinas PMD setempat
-   - Paket acara: Presentasi + Demo Produk Desa Binaan
-
-2. CSR Matching
-
-   - Pertemuan eksklusif dengan 10 perusahaan
-   - Paket sponsorship "Adopsi Desa"
-   - Pameran produk desa di kantor pusat perusahaan
+| Strategi | Implementasi |
+|----------|--------------|
+| **1. Roadshow Kabupaten** | a. 5 kota/kabupaten prioritas<br>b. Kolaborasi dengan Dinas PMD setempat<br>c. Paket acara: Presentasi + Demo Produk Desa Binaan | 
+| **2. CSR Matching** | a. Pertemuan eksklusif dengan 10 perusahaan<br>b. Paket sponsorship "Adopsi Desa"<br>c. Pameran produk desa di kantor pusat perusahaan |
 
 #### 4.3. Indikator Sukses
 
@@ -945,43 +897,40 @@ Dilaksanakan pekan 13 sampai 16
 
 #### 5.1. Aktivitas
 
-1. Seleksi Desa Pilot
-
-   - Assessment lapangan ke 15 kandidat
-   - Pemilihan 3 desa dengan kriteria:
-     - Kesiapan kelembagaan
-     - Diversifikasi sektor (wisata, agribisnis, UMKM)
-
-2. Kickoff Program
-
-   - Pelatihan khusus tim desa
-   - Penandatanganan komitmen bersama
-   - Pembuatan kanal komunikasi khusus
+| Aktivitas | Deskripsi |
+|-----------|-----------|
+| **Seleksi Desa Pilot** | a. Assessment lapangan ke 15 kandidat<br>b. Pemilihan 3 desa dengan kriteria:<br>  - Kesiapan kelembagaan<br>  - Diversifikasi sektor (wisata, agribisnis, UMKM) |
+| **Kickoff Program** | a. Pelatihan khusus tim desa<br>b. Penandatanganan komitmen bersama<br>c. Pembuatan kanal komunikasi khusus |
 
 #### 5.2. Sistem Monitoring
 
-- Dashboard real-time perkembangan
-- KPI unik per desa, contoh:
-  - Desa A - jumlah pengrajin terlatih
-  - Desa B - kunjungan wisatawan
-- Sistem reward untuk capaian milestone
+1. Dashboard real-time perkembangan
+
+2. KPI unik per desa, contoh:
+   - Desa A - jumlah pengrajin terlatih
+   - Desa B - kunjungan wisatawan
+
+3. Sistem reward untuk capaian milestone
 
 ---
 
 ### 6. Mekanisme Evaluasi & Keberlanjutan
 
-1. Evaluasi Triwulan
+#### 6.1. Evaluasi Triwulan
 
-   - Audit dokumen implementasi
-   - FGD dengan desa peserta
-   - Analisis ROI untuk mitra CSR
+1. Audit dokumen implementasi
+2. FGD dengan desa peserta
+3. Analisis ROI untuk mitra CSR
 
-2. Strategi Scaling
+#### 6.2. Strategi Scaling
 
-   - Pengembangan program khusus:
-     - "Desa Digital" - paket transformasi teknologi
-     - "Desa Ekspor" - pendampingan sertifikasi internasional
-   - Replikasi model ke provinsi lain
+1. Pengembangan program khusus
+
+   a. "Desa Digital" - paket transformasi teknologi
+   
+   b. "Desa Ekspor" - pendampingan sertifikasi internasional
+
+2. Replikasi model ke provinsi lain
 
 ---
 
