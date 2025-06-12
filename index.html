@@ -154,6 +154,7 @@
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
         margin: 2.5rem 0 2rem;
         border-radius: 4px;
+        line-height: 1.4; /* Added line height */
       }
 
       h2 {
@@ -164,6 +165,7 @@
         margin: 2.5rem 0;
         transition: all 0.3s ease;
         border-radius: 0 8px 8px 0;
+        line-height: 1.4; /* Added line height */
       }
 
       h2:hover {
@@ -177,6 +179,7 @@
         padding-bottom: 0.5rem;
         margin: 2.2rem 0 0.8rem;
         color: #1e3a8a;
+        line-height: 1.4; /* Added line height */
       }
 
       h4 {
@@ -186,6 +189,7 @@
         color: #1e293b;
         position: relative;
         padding-left: 1.8rem;
+        line-height: 1.4; /* Added line height */
       }
 
       h4::before {
@@ -204,6 +208,7 @@
         color: #1e3a8a;
         position: relative;
         padding-left: 1.5rem;
+        line-height: 1.4; /* Added line height */
       }
 
       h5::before {
@@ -223,6 +228,7 @@
         position: relative;
         padding-left: 1.5rem;
         font-style: italic;
+        line-height: 1.4; /* Added line height */
       }
 
       h6::before {
@@ -232,6 +238,23 @@
         left: 0;
         font-size: 1rem;
         top: 0;
+      }
+
+      /* Mobile-specific line spacing fixes */
+      @media (max-width: 768px) {
+        h1 {
+          padding: 1rem 0.5rem; /* Increased vertical padding */
+          line-height: 1.5; /* More space between wrapped lines */
+        }
+        h2 {
+          padding: 0.8rem 0.8rem;
+          line-height: 1.45;
+          margin-bottom: 1rem; /* Added space below */
+        }
+        h3 {
+          padding-bottom: 0.7rem; /* Prevents text cramming */
+          line-height: 1.4;
+        }
       }
 
       table {
