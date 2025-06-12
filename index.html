@@ -12,18 +12,18 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-    body {
-      font-family: var(--vscode-markdown-font-family,
-          -apple-system,
-          BlinkMacSystemFont,
-          "Segoe WPC",
-          "Segoe UI",
-          "Ubuntu",
-          "Droid Sans",
-          sans-serif);
-      font-size: var(--vscode-markdown-font-size, 1rem);
-      padding: 0 26px;
-      line-height: var(--vscode-markdown-line-height, 22px);
+body {
+  font-family: var(--vscode-markdown-font-family,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe WPC",
+      "Segoe UI",
+      "Ubuntu",
+      "Droid Sans",
+      sans-serif);
+  font-size: var(--vscode-markdown-font-size, 1rem);
+  padding: 50px 26px 0; /* Ditambah padding-top untuk nav */
+  line-height: var(--vscode-markdown-line-height, 22px);
       word-wrap: break-word;
       background-color: #1e293b;
     }
@@ -357,6 +357,35 @@
     .vscode-dark table>tbody>tr+tr>td {
       border-color: rgba(255, 255, 255, 0.18);
     }
+    
+    /* Navbar Fixed */
+    #top-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1a3a8f;
+        padding: 10px 0;
+        text-align: center;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    #top-nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+        font-size: 1.1rem;
+        padding: 5px 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    #top-nav a:hover {
+        background-color: rgba(255,255,255,0.1);
+        text-decoration: none;
+    }
   </style>
 
   <style>
@@ -546,6 +575,12 @@
           : "default",
     });
   </script>
+  <!-- Navbar Fixed -->
+  <nav id="top-nav">
+    <a href="#a-kerangka-acuan-kerja">📑 KAK</a>
+    <a href="#b-rencana-kerja-penyiapan-dokumen--materi-program">📋 Preparasi</a>
+  </nav>
+  
   <div id="page">
     <h1 id="akselerator-bisnis-komunitas-desa">
       Akselerator Bisnis Komunitas Desa
