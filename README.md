@@ -946,375 +946,74 @@ Untuk memulai pemasaran dan persiapan pilot project program pengembangan potensi
 
 ### 1. Materi Pemasaran dan Komunikasi
 
-#### 1.1. Proposal Ringkas (Executive Summary)
-
-Berupa versi singkat (2-3 halaman) dari program, berisi:
-
-1. Latar belakang dan tujuan program
-
-2. Tahapan dan manfaat program
-
-3. Struktur biaya dan opsi pembiayaan
-
-4. Keunggulan dan diferensiasi program
-
-5. Informasi kontak dan cara bergabung
-
-#### 1.2. Brosur Program
-
-Berupa brosur digital dan cetak, berisi:
-
-1. Penjelasan ringkas 3 tahapan program
-
-2. Manfaat spesifik untuk desa
-
-3. Testimonial dari ahli atau desa yang pernah didampingi
-
-4. Infografis alur program
-
-5. QR code untuk pendaftaran/informasi lebih lanjut
-
-#### 1.3. Presentasi Program
-
-Berupa slide deck untuk presentasi ke pemangku kepentingan, berisi:
-
-1. Presentasi umum program (15-20 slide)
-
-2. Presentasi teknis per tahapan (webinar, workshop, pendampingan)
-
-3. Presentasi khusus untuk berbagai pemangku kepentingan (Pemdes, Pemkab, CSR)
-
-#### 1.4. Video Profile Program
-
-Video singkat (2-3 menit), berisi:
-
-1. Gambaran umum program
-
-2. Testimoni narasumber/pembicara potensial
-
-3. Visualisasi proses dan hasil yang diharapkan
-
-4. Call to action untuk bergabung
-
-#### 1.5. Kit Media Sosial
-
-Konten visual dan narasi untuk media sosial, berisi:
-
-1. Template postingan untuk berbagai platform
-
-2. Infografis program
-
-3. Quotes inspiratif dari narasumber potensial
-
-4. FAQ dalam format visual
+| Materi | Rincian |
+|--------|---------|
+| **1. Proposal Ringkas (Executive Summary)** | Versi singkat (2-3 halaman) dari program, berisi:<br><br>1. Latar belakang dan tujuan program<br><br>2. Tahapan dan manfaat program<br><br>3. Struktur biaya dan opsi pembiayaan<br><br>4. Keunggulan dan diferensiasi program<br><br>5. Informasi kontak dan cara bergabung |
+| **2. Brosur Program** | Berupa brosur digital dan cetak, berisi:<br><br>1. Penjelasan ringkas 3 tahapan program<br><br>2. Manfaat spesifik untuk desa<br><br>3. Testimonial dari ahli atau desa yang pernah didampingi<br><br>4. Infografis alur program<br><br>5. QR code untuk pendaftaran/informasi lebih lanjut |
+| **3. Presentasi Program** | Berupa slide deck untuk presentasi ke pemangku kepentingan, berisi:<br><br>1. Presentasi umum program (15-20 slide)<br><br>2. Presentasi teknis per tahapan (webinar, workshop, pendampingan)<br><br>3. Presentasi khusus untuk berbagai pemangku kepentingan (Pemdes, Pemkab, CSR) |
+| **4. Video Profile Program** | Video singkat (2-3 menit), berisi:<br><br>1. Gambaran umum program<br><br>2. Testimoni narasumber/pembicara potensial<br><br>3. Visualisasi proses dan hasil yang diharapkan<br><br>4. Call to action untuk bergabung |
+| **5. Kit Media Sosial** | Konten visual dan narasi untuk media sosial, berisi:<br><br>1. Template postingan untuk berbagai platform<br><br>2. Infografis program<br><br>3. Quotes inspiratif dari narasumber potensial<br><br>4. FAQ dalam format visual |
 
 ### 2. Dokumen Administratif dan Legal
 
-#### 2.1. Template MoU/Perjanjian Kerjasama
-
-Dokumen legal untuk berbagai tahap, antara lain:
-
-1. MoU dengan pemerintah kabupaten (jika diperlukan)
-
-2. Perjanjian kerjasama untuk webinar
-
-3. Perjanjian kerjasama untuk workshop
-
-4. Perjanjian kerjasama untuk pendampingan
-
-#### 2.2. Formulir Pendaftaran dan Seleksi
-
-Formulir untuk proses seleksi peserta, antara lain:
-
-1. Formulir pendaftaran webinar
-
-2. Formulir minat workshop
-
-3. Formulir seleksi pendampingan
-
-4. Kuesioner pemetaan awal potensi desa
-
-#### 2.3. Template Invoice dan Kwitansi
-
-Dokumen keuangan resmi, antara lain:
-
-1. Format invoice untuk setiap tahapan
-
-2. Format kwitansi pembayaran
-
-3. Rincian komponen biaya
-
-4. Persyaratan pembayaran
-
-#### 2.4. Surat Penawaran Resmi
-
-Surat formal yang ditujukan ke:
-
-1. Pemerintah desa
-
-2. Pemerintah kabupaten
-
-3. Perusahaan (untuk program CSR)
-
-4. Lembaga donor atau mitra potensial
+| Materi | Rincian |
+|--------|---------|
+| **1. Template Perjanjian Kerjasama** | Dokumen legal untuk berbagai tahap:<br><br>1. MoU dengan pemerintah kabupaten (jika diperlukan)<br><br>2. Perjanjian kerjasama untuk webinar<br><br>3. Perjanjian kerjasama untuk workshop<br><br>4. Perjanjian kerjasama untuk pendampingan |
+| **2. Formulir Pendaftaran dan Seleksi** | Formulir untuk proses seleksi peserta:<br><br>1. Formulir pendaftaran webinar<br><br>2. Formulir minat workshop<br><br>3. Formulir seleksi pendampingan<br><br>4. Kuesioner pemetaan awal potensi desa |
+| **3. Template Invoice dan Kwitansi** | Dokumen keuangan resmi:<br><br>1. Format invoice untuk setiap tahapan<br><br>2. Format kwitansi pembayaran<br><br>3. Rincian komponen biaya<br><br>4. Persyaratan pembayaran |
+| **4. Surat Penawaran Resmi** | Surat formal untuk:<br><br>1. Pemerintah desa<br><br>2. Pemerintah kabupaten<br><br>3. Perusahaan (untuk program CSR)<br><br>4. Lembaga donor atau mitra potensial |
 
 ### 3. Materi Teknis Program
 
-#### 3.1. Modul Webinar
-
-Materi teknis untuk webinar, antara lain:
-
-1. Rundown detail acara
-
-2. Panduan teknis untuk peserta webinar
-
-3. Template presentasi untuk pembicara
-
-4. Panduan moderator dan pertanyaan kunci
-
-#### 3.2 Modul Workshop
-
-Materi lengkap untuk workshop, antara lain:
-
-1. Panduan fasilitator
-
-2. Lembar kerja peserta
-
-3. Template dokumen perencanaan
-
-4. Studi kasus untuk diskusi kelompok
-
-5. Instrumen evaluasi workshop
-
-#### 3.3 Panduan Pendampingan
-
-Materi teknis untuk tim pendamping, antara lain:
-
-1. Protokol pendampingan
-
-2. Template laporan kunjungan
-
-3. Checklist milestone pendampingan
-
-4. Tools assessment perkembangan usaha
-
-5. Instrumen monitoring dan evaluasi
-
-#### 3.4. Direktori Sumber Daya
-
-Kumpulan informasi penunjang, antara lain:
-
-1. Daftar narasumber potensial dan keahliannya
-
-2. Direktori lembaga pendukung dan program
-
-3. Database teknologi tepat guna
-
-4. Direktori akses permodalan
-
-5. Direktori jaringan pemasaran potensial
+| Materi | Rincian |
+|--------|---------|
+| **1. Modul Webinar** | Materi teknis untuk webinar:<br><br>1. Rundown detail acara<br><br>2. Panduan teknis untuk peserta webinar<br><br>3. Template presentasi untuk pembicara<br><br>4. Panduan moderator dan pertanyaan kunci |
+| **2. Modul Workshop** | Materi lengkap untuk workshop:<br><br>1. Panduan fasilitator<br><br>2. Lembar kerja peserta<br><br>3. Template dokumen perencanaan<br><br>4. Studi kasus untuk diskusi kelompok<br><br>5. Instrumen evaluasi workshop |
+| **3. Panduan Pendampingan** | Materi teknis untuk tim pendamping:<br><br>1. Protokol pendampingan<br><br>2. Template laporan kunjungan<br><br>3. Checklist milestone pendampingan<br><br>4. Tools assessment perkembangan usaha<br><br>5. Instrumen monitoring dan evaluasi |
+| **4. Direktori Sumber Daya** | Kumpulan informasi penunjang:<br><br>1. Daftar narasumber potensial dan keahliannya<br><br>2. Direktori lembaga pendukung dan program<br><br>3. Database teknologi tepat guna<br><br>4. Direktori akses permodalan<br><br>5. Direktori jaringan pemasaran potensial |
 
 ### 4. Dokumen Persiapan Pilot Project
 
-#### 4.1. Kriteria dan Profil Desa Pilot
+Berikut tabel untuk dokumen persiapan pilot project:
 
-Dokumen panduan pemilihan desa, antara lain:
-
-1. Kriteria seleksi desa pilot
-
-2. Metode assessment dan scoring
-
-3. Template profil desa pilot
-
-4. Indikator baseline dan target capaian
-
-#### 4.2. Rencana Implementasi Pilot
-
-Dokumen perencanaan pilot project, antara lain:
-
-1. Timeline detail pelaksanaan pilot
-
-2. Pembagian peran dan tanggung jawab tim
-
-3. Alokasi sumber daya untuk pilot
-
-4. Protokol penanganan situasi khusus
-
-#### 4.3. Instrumen Monitoring Pilot
-
-Tools untuk monitoring pilot project, yakni:
-
-1. Form monitoring berkala
-
-2. Protokol dokumentasi proses
-
-3. Template laporan kemajuan
-
-4. Instrumen pengukuran dampak awal
-
-#### 4.4. Rencana Evaluasi dan Scaling
-
-Dokumen strategis pasca-pilot, antara lain:
-
-1. Framework evaluasi pilot project
-
-2. Kriteria keberhasilan pilot
-
-3. Strategi perbaikan program
-
-4. Rencana scaling up pasca-pilot
+| Dokumen | Rincian |
+|--------|---------|
+| **1. Kriteria & Profil Desa Pilot** | Dokumen panduan pemilihan desa:<br><br>1. Kriteria seleksi desa pilot<br><br>2. Metode assessment dan scoring<br><br>3. Template profil desa pilot<br><br>4. Indikator baseline dan target capaian |
+| **2. Rencana Implementasi Pilot** | Dokumen perencanaan pilot project:<br><br>1. Timeline detail pelaksanaan pilot<br><br>2. Pembagian peran dan tanggung jawab tim<br><br>3. Alokasi sumber daya untuk pilot<br><br>4. Protokol penanganan situasi khusus |
+| **3. Instrumen Monitoring Pilot** | Tools untuk monitoring pilot project:<br><br>1. Form monitoring berkala<br><br>2. Protokol dokumentasi proses<br><br>3. Template laporan kemajuan<br><br>4. Instrumen pengukuran dampak awal |
+| **4. Rencana Evaluasi dan Scaling** | Dokumen strategis pasca-pilot,:<br><br>1. Framework evaluasi pilot project<br><br>2. Kriteria keberhasilan pilot<br><br>3. Strategi perbaikan program<br><br>4. Rencana scaling up pasca-pilot |
 
 ### 5. Dokumen Penggalangan Dukungan
 
-#### 5.1. Proposal untuk Mitra Pendanaan
-
-Dokumen lengkap untuk penggalangan dana, antara lain:
-
-1. Proposal program untuk CSR perusahaan
-
-2. Proposal kerjasama untuk lembaga donor
-
-3. Proposal program untuk pemerintah daerah
-
-4. Skema cost sharing dan kontribusi mitra
-
-#### 5.2. Policy Brief untuk Pemerintah
-
-Dokumen advokasi kebijakan, antara lain:
-
-1. Urgensi dan manfaat program
-
-2. Keselarasan dengan program pemerintah
-
-3. Rekomendasi dukungan kebijakan
-
-4. Potensi dampak ekonomi dan sosial
-
-#### 5.3. Panduan Sinergi Program
-
-Dokumen untuk integrasi program, antara lain:
-
-1. Pemetaan program sejenis di daerah target
-
-2. Strategi sinergi antar program
-
-3. Potensi kolaborasi dengan stakeholder
-
-4. Strategi penghindaran duplikasi program
+| Dokumen | Rincian |
+|---------|---------|
+| **1. Proposal untuk Mitra Pendanaan** | Dokumen lengkap untuk penggalangan dana:<br><br>1. Proposal program untuk CSR perusahaan<br><br>2. Proposal kerjasama untuk lembaga donor<br><br>3. Proposal program untuk pemerintah daerah<br><br>4. Skema cost sharing dan kontribusi mitra |
+| **2. Policy Brief untuk Pemerintah** | Dokumen advokasi kebijakan:<br><br>1. Urgensi dan manfaat program<br><br>2. Keselarasan dengan program pemerintah<br><br>3. Rekomendasi dukungan kebijakan<br><br>4. Potensi dampak ekonomi dan sosial |
+| **3. Panduan Sinergi Program** | Dokumen untuk integrasi program:<br><br>1. Pemetaan program sejenis di daerah target<br><br>2. Strategi sinergi antar program<br><br>3. Potensi kolaborasi dengan stakeholder<br><br>4. Strategi penghindaran duplikasi program |
 
 ### 6. Materi Teknis untuk Tim Internal
 
-#### 6.1. Panduan Operasional Tim
-
-Dokumen panduan untuk tim pelaksana, antara lain:
-
-1. SOP pelaksanaan setiap tahapan
-
-2. Pembagian peran dan tanggung jawab
-
-3. Protokol komunikasi internal
-
-4. Protokol penanganan krisis
-
-#### 6.2. Tools Assessment dan Pendampingan
-
-Instrumen teknis untuk tim pendamping, antara lain:
-
-1. Form assessment potensi desa
-
-2. Template rencana pendampingan
-
-3. Checklist kunjungan lapangan
-
-4. Indikator perkembangan usaha
-
-#### 6.3. Materi Training untuk Tim
-
-Materi pengembangan kapasitas tim, antara lain:
-
-1. Modul pemahaman program
-
-2. Teknik fasilitasi dan pendampingan
-
-3. Pengelolaan hubungan stakeholder
-
-4. Monitoring dan evaluasi program
+| Dokumen | Rincian |
+|---------|---------|
+| **1. Panduan Operasional Tim** | Dokumen panduan untuk tim pelaksana:<br><br>1. SOP pelaksanaan setiap tahapan<br><br>2. Pembagian peran dan tanggung jawab<br><br>3. Protokol komunikasi internal<br><br>4. Protokol penanganan krisis |
+| **2. Tools Assessment dan Pendampingan** | Instrumen teknis untuk tim pendamping:<br><br>1. Form assessment potensi desa<br><br>2. Template rencana pendampingan<br><br>3. Checklist kunjungan lapangan<br><br>4. Indikator perkembangan usaha |
+| **3. Materi Training untuk Tim** | Materi pengembangan kapasitas tim:<br><br>1. Modul pemahaman program<br><br>2. Teknik fasilitasi dan pendampingan<br><br>3. Pengelolaan hubungan stakeholder<br><br>4. Monitoring dan evaluasi program |
 
 ### 7. Strategi dan Rencana Tindak Lanjut
 
-#### 7.1. Strategi Pemasaran Program
-
-Dokumen strategi pemasaran komprehensif, antara lain:
-
-1. Segmentasi target desa
-
-2. Strategi komunikasi per segmen
-
-3. Timeline kampanye pemasaran
-
-4. Indikator keberhasilan pemasaran
-
-#### 7.2. Rencana Aksi 90 Hari Pertama
-
-Dokumen rencana aksi awal, antara lain:
-
-1. Timeline kegiatan 90 hari pertama
-
-2. Pembagian tugas dan target
-
-3. Alokasi sumber daya awal
-
-4. Quick win yang diharapkan
-
-#### 7.3. Strategi Keberlanjutan Program
-
-Dokumen strategis jangka panjang, antara lain:
-
-1. Model bisnis keberlanjutan program
-
-2. Strategi pengembangan program
-
-3. Roadmap program 1-3 tahun
-
-4. Indikator kesuksesan jangka panjang
+| Dokumen | Rincian |
+|---------|---------|
+| **1. Strategi Pemasaran Program** | Dokumen strategi pemasaran komprehensif:<br><br>1. Segmentasi target desa<br><br>2. Strategi komunikasi per segmen<br><br>3. Timeline kampanye pemasaran<br><br>4. Indikator keberhasilan pemasaran |
+| **2. Rencana Aksi 90 Hari Pertama** | Dokumen rencana aksi awal:<br><br>1. Timeline kegiatan 90 hari pertama<br><br>2. Pembagian tugas dan target<br><br>3. Alokasi sumber daya awal<br><br>4. Quick win yang diharapkan |
+| **3. Strategi Keberlanjutan Program** | Dokumen strategis jangka panjang:<br><br>1. Model bisnis keberlanjutan program<br><br>2. Strategi pengembangan program<br><br>3. Roadmap program 1-3 tahun<br><br>4. Indikator kesuksesan jangka panjang |
 
 ### 8. Database dan Knowledge Management
 
-#### 8.1. Database Desa Potensial
-
-Kumpulan data desa target, antara lain:
-
-1. Profil singkat desa potensial
-
-2. Data kontak perangkat desa
-
-3. Pemetaan awal potensi ekonomi
-
-4. Status program sejenis di desa
-
-#### 8.2. Database Stakeholders
-
-Kumpulan data pemangku kepentingan, antara lain:
-
-1. Database pemangku kepentingan pemerintah
-
-2. Database perusahaan dengan program CSR
-
-3. Database lembaga pendukung dan donor
-
-4. Database narasumber dan mitra teknis
-
-#### 8.3. Sistem Knowledge Management
-
-Struktur pengelolaan pengetahuan, antara lain:
-
-1. Format dokumentasi pembelajaran
-
-2. Sistem pengarsipan dokumen
-
-3. Platform berbagi pengetahuan internal
-
-4. Mekanisme update materi program
+| Dokumen | Rincian |
+|---------|---------|
+| **1. Database Desa Potensial** | Kumpulan data desa target:<br><br>1. Profil singkat desa potensial<br><br>2. Data kontak perangkat desa<br><br>3. Pemetaan awal potensi ekonomi<br><br>4. Status program sejenis di desa |
+| **2. Database Stakeholders** | Kumpulan data pemangku kepentingan:<br><br>1. Database pemangku kepentingan pemerintah<br><br>2. Database perusahaan dengan program CSR<br><br>3. Database lembaga pendukung dan donor<br><br>4. Database narasumber dan mitra teknis |
+| **3. Sistem Knowledge Management** | Struktur pengelolaan pengetahuan:<br><br>1. Format dokumentasi pembelajaran<br><br>2. Sistem pengarsipan dokumen<br><br>3. Platform berbagi pengetahuan internal<br><br>4. Mekanisme update materi program |
 
 Dengan mempersiapkan dokumen dan materi di atas, Cakra Consulting akan memiliki fondasi yang kuat untuk memulai pemasaran program dan melaksanakan pilot project dengan efektif. Dokumen-dokumen ini tidak harus semuanya disiapkan sekaligus, tetapi dapat diprioritaskan sesuai dengan tahapan implementasi program.
 
