@@ -369,31 +369,31 @@ Program ini menerapkan pembagian biaya (*cost-sharing*) dengan skema sebagai ber
 
 | No | Kegiatan                           | Timeline                          |
 |----|------------------------------------|-----------------------------------|
-| 1  | Sosialisasi dan pendaftaran        | 2 minggu sebelum pelaksanaan      |
+| 1  | Sosialisasi dan pendaftaran        | 2 pekan sebelum pelaksanaan      |
 |    |                                    |                                   |
-| 2  | Konfirmasi peserta                 | 1 minggu sebelum pelaksanaan      |
+| 2  | Konfirmasi peserta                 | 1 pekan sebelum pelaksanaan      |
 |    |                                    |                                   |
 | 3  | Pelaksanaan webinar                | 1 hari                            |
 |    |                                    |                                   |
-| 4  | Pendaftaran untuk workshop         | Maksimal 1 minggu setelah webinar |
+| 4  | Pendaftaran untuk workshop         | Maksimal 1 pekan setelah webinar |
 
 #### 5.3. Timeline Detail Workshop
 
 | No | Kegiatan                               | Timeline                          |
 |----|----------------------------------------|-----------------------------------|
-| 1  | Seleksi peserta workshop               | 1 minggu setelah webinar          |
+| 1  | Seleksi peserta workshop               | 1 pekan setelah webinar          |
 |    |                                        |                                   |
-| 2  | Konfirmasi keikutsertaan dan pembayaran | 1 minggu sebelum workshop         |
+| 2  | Konfirmasi keikutsertaan dan pembayaran | 1 pekan sebelum workshop         |
 |    |                                        |                                   |
 | 3  | Pelaksanaan workshop                   | 3 hari berturut-turut             |
 |    |                                        |                                   |
-| 4  | Pendaftaran untuk pendampingan         | Maksimal 1 minggu setelah workshop |
+| 4  | Pendaftaran untuk pendampingan         | Maksimal 1 pekan setelah workshop |
 
 #### 5.4. Timeline Detail Pendampingan
 
 | No | Kegiatan                              | Timeline                          |
 |----|---------------------------------------|-----------------------------------|
-| 1  | Seleksi desa untuk pendampingan       | 1 minggu setelah workshop         |
+| 1  | Seleksi desa untuk pendampingan       | 1 pekan setelah workshop         |
 |    |                                       |                                   |
 | 2  | Penandatanganan kesepakatan           | Sebelum memulai pendampingan      |
 |    |                                       |                                   |
@@ -816,7 +816,7 @@ Berikut tabel aktivitas dan deskripsinya sesuai permintaan:
 
 2. Rencana alokasi sumber daya
 
-3. Gantt chart timeline 16 minggu (disesuaikan dengan durasi rencana kerja)
+3. Gantt chart timeline 16 pekan (disesuaikan dengan durasi rencana kerja)
 
 ---
 
@@ -843,7 +843,7 @@ Dilaksanakan pekan 3 sampai 6.
 
 ---
 
-### 3. Tahap 3 - Finalisasi & Uji Coba (Minggu 7-8)
+### 3. Tahap 3 - Finalisasi & Uji Coba (Pekan 7-8)
 
 Dilaksanakan pekan 7 dan 8.
 
@@ -1021,11 +1021,11 @@ Dengan mempersiapkan dokumen dan materi di atas, Cakra Consulting akan memiliki 
 
 ## D. Rencana Anggaran Biaya (RAB) - Fase Penyiapan Dokumen & Materi Program
 
-Berdasarkan Rencana Kerja Penyiapan Dokumen & Materi Program "Akselerator Bisnis Komunitas Desa", berikut adalah estimasi anggaran biaya untuk fase 16 minggu pertama, dengan fokus pada biaya personel dan biaya operasional terkait penyiapan dokumen.
+Berdasarkan Rencana Kerja Penyiapan Dokumen & Materi Program "Akselerator Bisnis Komunitas Desa", berikut adalah estimasi anggaran biaya untuk fase 16 pekan pertama, dengan fokus pada biaya personel dan biaya operasional terkait penyiapan dokumen.
 
 ### 1. Asumsi
 
-- Durasi Fase RAB ini: 16 Minggu (sesuai Rencana Kerja Penyiapan Dokumen)
+- Durasi Fase RAB ini: 16 Pekan (sesuai Rencana Kerja Penyiapan Dokumen)
 - Estimasi Ukuran Tim Pelaksana: 4-5 Orang (sesuai KAK)
 - Standar Upah: Mengacu pada standar upah di Yogyakarta (perlu diisi angkanya per Orang-Hari)
 
@@ -1035,9 +1035,9 @@ Perhitungan biaya personel menggunakan model Orang-Hari berdasarkan estimasi dur
 
 | Peran (Estimasi)                     | Jumlah Personel (Estimasi) | Estimasi Durasi Keterlibatan Total (Hari) | Estimasi Upah per Orang-Hari (Rp) | Total Estimasi Biaya Personel (Rp) |
 |--------------------------------------|----------------------------|-------------------------------------------|-----------------------------------|------------------------------------|
-| Manajer Program                      | 1                          | 80 (~16 minggu * 5 hari)                  | [Upah per Orang-Hari]         | [Jumlah Personel *Hari* Upah per Hari] |
-| Ahli Pengembangan Usaha / Fasilitator Utama | 1-2                        | 60 (~12 minggu * 5 hari)                  | [Upah per Orang-Hari]         | [Jumlah Personel *Hari* Upah per Hari] |
-| Ahli Legal/Administrasi/Dokumentasi  | 1                          | 80 (~16 minggu * 5 hari)                  | [Upah per Orang-Hari]         | [Jumlah Personel *Hari* Upah per Hari] |
+| Manajer Program                      | 1                          | 80 (~16 pekan * 5 hari)                  | [Upah per Orang-Hari]         | [Jumlah Personel *Hari* Upah per Hari] |
+| Ahli Pengembangan Usaha / Fasilitator Utama | 1-2                        | 60 (~12 pekan * 5 hari)                  | [Upah per Orang-Hari]         | [Jumlah Personel *Hari* Upah per Hari] |
+| Ahli Legal/Administrasi/Dokumentasi  | 1                          | 80 (~16 pekan * 5 hari)                  | [Upah per Orang-Hari]         | [Jumlah Personel *Hari* Upah per Hari] |
 | Spesialis Teknis/Lapangan (Jika Ada) | [Jumlah]                   | [Jumlah Hari]                             | [Upah per Orang-Hari]         | [Jumlah Personel *Hari* Upah per Hari] |
 | **Total Estimasi Biaya Personel**    | **4-5**                    | **[Jumlah Total Estimasi Hari]**       |                                   | **[Jumlah Total Estimasi Biaya Personel]** |
 
@@ -1045,62 +1045,51 @@ Perhitungan biaya personel menggunakan model Orang-Hari berdasarkan estimasi dur
 
 Estimasi biaya personel dan operasional per tahap dalam fase penyiapan dokumen.
 
-#### 3.1. Tahap 1 - Persiapan Tim & Pelaksanaan Webinar (Minggu 1-2)
-
-- Estimasi Orang-Hari Personel Tim Inti (Persiapan & Pelaksanaan Webinar): 30 Hari (Estimasi 3 orang *2 minggu* 5 hari/minggu)
-- Biaya Personel Tim Inti: [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti]
-- Honor Pembicara Webinar Eksternal (3 orang): [Estimasi Honor per Pembicara * 3]
-- Biaya Lokakarya Perencanaan: [Estimasi Biaya]
-- Biaya Operasional Lainnya (Komunikasi, Internet, Alat Tulis, dll.): [Estimasi Biaya]
-- **Total Tahap 1:** [Jumlah Biaya Tahap 1]
-
-#### 3.2. Tahap 2 - Pengembangan Materi Inti (Minggu 3-6)
-
-- Estimasi Orang-Hari Personel Tim Inti: 60 Hari (Estimasi 3 orang *4 minggu* 5 hari/minggu)
-- Biaya Personel Tim Inti: [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti]
-- Biaya Validasi Konten oleh Ahli Sektor (Opsional): [Estimasi Biaya]
-- Biaya Operasional Lainnya (Riset, Materi Referensi, dll.): [Estimasi Biaya]
-- **Total Tahap 2:** [Jumlah Biaya Tahap 2]
-
-#### 3.3. Tahap 3 - Finalisasi & Uji Coba (Minggu 7-8)
-
-- Estimasi Orang-Hari Personel Tim Inti: 30 Hari (Estimasi 3 orang *2 minggu* 5 hari/minggu)
-- Biaya Personel Tim Inti: [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti]
-- Biaya Uji Coba Materi (Transportasi, Konsumsi Peserta Uji Coba, Sewa Tempat jika offline): [Estimasi Biaya]
-- Biaya Produksi Massal (Cetak Brosur Terbatas, Render Video Profil, Setup Database Online): [Estimasi Biaya]
-- Biaya Operasional Lainnya (Koordinasi, Komunikasi): [Estimasi Biaya]
-- **Total Tahap 3:** [Jumlah Biaya Tahap 3]
-
-#### 3.4. Tahap 4 - Peluncuran & Pemasaran (Minggu 9-12)
-
-- Estimasi Orang-Hari Personel Tim Inti: 60 Hari (Estimasi 3 orang *4 minggu* 5 hari/minggu)
-- Biaya Personel Tim Inti: [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti]
-- Biaya Kampanye Digital (Iklan Online, Platform Microsite): [Estimasi Biaya]
-- Biaya Roadshow Kabupaten (Transportasi, Akomodasi, Sewa Tempat Acara): [Estimasi Biaya]
-- Biaya Pertemuan CSR (Konsumsi, Materi Pertemuan): [Estimasi Biaya]
-- Biaya Operasional Lainnya (Materi Promosi Cetak, Komunikasi): [Estimasi Biaya]
-- **Total Tahap 4:** [Jumlah Biaya Tahap 4]
-
-#### 3.5. Tahap 5 - Implementasi Pilot Project (Minggu 13-16)
-
-- Estimasi Orang-Hari Personel Tim Inti: 60 Hari (Estimasi 3 orang *4 minggu* 5 hari/minggu)
-- Biaya Personel Tim Inti: [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti]
-- Biaya Assessment Lapangan (Transportasi, Akomodasi Tim): [Estimasi Biaya]
-- Biaya Pelatihan Tim Desa (Materi Pelatihan, Konsumsi Peserta): [Estimasi Biaya]
-- Biaya Sistem Monitoring (Platform, Maintenance Ringan): [Estimasi Biaya]
-- Biaya Operasional Lainnya (Koordinasi, Komunikasi): [Estimasi Biaya]
-- **Total Tahap 5:** [Jumlah Biaya Tahap 5]
+| Tahap | Komponen Biaya | Estimasi | Total |
+|-------|----------------|----------|-------------|
+| **Tahap 1 - Persiapan Tim & Pelaksanaan Webinar<br>(Pekan 1-2)** | Estimasi Orang-Hari Personel Tim Inti (Persiapan & Pelaksanaan Webinar): 30 Hari | [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti] | |
+| | Honor Pembicara Webinar Eksternal (3 orang) | [Estimasi Honor per Pembicara * 3] | |
+| | Biaya Lokakarya Perencanaan | [Estimasi Biaya] | |
+| | Biaya Operasional Lainnya (Komunikasi, Internet, Alat Tulis, dll.) | [Estimasi Biaya] | |
+| | | | **[Jumlah Biaya Tahap 1]** |
+| **Tahap 2 - Pengembangan Materi Inti<br>(Pekan 3-6)** | Estimasi Orang-Hari Personel Tim Inti: 60 Hari | [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti] | |
+| | Biaya Validasi Konten oleh Ahli Sektor (Opsional) | [Estimasi Biaya] | |
+| | Biaya Operasional Lainnya (Riset, Materi Referensi, dll.) | [Estimasi Biaya] | |
+| | | | **[Jumlah Biaya Tahap 2]** |
+| **Tahap 3 - Finalisasi & Uji Coba<br>(Pekan 7-8)** | Estimasi Orang-Hari Personel Tim Inti: 30 Hari | [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti] | |
+| | Biaya Uji Coba Materi (Transportasi, Konsumsi Peserta Uji Coba, Sewa Tempat jika offline) | [Estimasi Biaya] | |
+| | Biaya Produksi Massal (Cetak Brosur Terbatas, Render Video Profil, Setup Database Online) | [Estimasi Biaya] | |
+| | Biaya Operasional Lainnya (Koordinasi, Komunikasi) | [Estimasi Biaya] | |
+| | | | **[Jumlah Biaya Tahap 3]** |
+| **Tahap 4 - Peluncuran & Pemasaran<br>(Pekan 9-12)** | Estimasi Orang-Hari Personel Tim Inti: 60 Hari | [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti] | |
+| | Biaya Kampanye Digital (Iklan Online, Platform Microsite) | [Estimasi Biaya] | |
+| | Biaya Roadshow Kabupaten (Transportasi, Akomodasi, Sewa Tempat Acara) | [Estimasi Biaya] | |
+| | Biaya Pertemuan CSR (Konsumsi, Materi Pertemuan) | [Estimasi Biaya] | |
+| | Biaya Operasional Lainnya (Materi Promosi Cetak, Komunikasi) | [Estimasi Biaya] | |
+| | | | **[Jumlah Biaya Tahap 4]** |
+| **Tahap 5 - Implementasi Pilot Project<br>(Pekan 13-16)** | Estimasi Orang-Hari Personel Tim Inti: 60 Hari | [Estimasi Orang-Hari Tim Inti * Rata-rata Upah per Orang-Hari Tim Inti] | |
+| | Biaya Assessment Lapangan (Transportasi, Akomodasi Tim) | [Estimasi Biaya] | |
+| | Biaya Pelatihan Tim Desa (Materi Pelatihan, Konsumsi Peserta) | [Estimasi Biaya] | |
+| | Biaya Sistem Monitoring (Platform, Maintenance Ringan) | [Estimasi Biaya] | |
+| | Biaya Operasional Lainnya (Koordinasi, Komunikasi) | [Estimasi Biaya] | |
+| | | | **[Jumlah Biaya Tahap 5]** |
 
 ### 4. Total Keseluruhan RAB Fase Penyiapan Dokumen
 
-**Total Biaya Personel Tim Inti:** [Total Estimasi Biaya Personel dari tabel]
-**Total Honor Pembicara Eksternal:** [Honor Pembicara Webinar Eksternal dari Tahap 1]
-**Total Biaya Operasional Lainnya:** [Jumlah semua Estimasi Biaya Operasional Lainnya dari setiap tahap]
-**Grand Total RAB Fase Penyiapan Dokumen:** [Total Biaya Personel Tim Inti + Total Honor Pembicara Eksternal + Total Biaya Operasional Lainnya]
+| Komponen | Biaya |
+|------------|-------------|
+| **Total Biaya Personel Tim Inti** | [Total Estimasi Biaya Personel dari tabel] |
+| **Total Honor Pembicara Eksternal** | [Honor Pembicara Webinar Eksternal dari Tahap 1] |
+| **Total Biaya Operasional Lainnya** | [Jumlah semua Estimasi Biaya Operasional Lainnya dari setiap tahap] |
+| **Grand Total RAB Fase Penyiapan Dokumen** | [Total Biaya Personel Tim Inti + Total Honor Pembicara Eksternal + Total Biaya Operasional Lainnya] |
+
 
 ### 5. **Catatan:**
 
-- Angka dalam kurung siku `[ ]` adalah placeholder yang perlu Anda isi dengan data yang relevan.
+- Angka dalam kurung siku `[ ]` perlu diisi dengan data yang relevan.
+
 - Estimasi Orang-Hari per tahap adalah perkiraan berdasarkan durasi tahap dan asumsi tim inti 3 orang yang terlibat penuh. Penyesuaian mungkin diperlukan tergantung alokasi riil tim 4-5 orang.
+
 - Biaya operasional lainnya bersifat opsional dan dapat disesuaikan dengan kebutuhan riil program.
-- RAB ini hanya mencakup fase penyiapan dokumen (16 minggu pertama). RAB terpisah akan diperlukan untuk Tahap Inspirasi (Webinar), Tahap Kapasitasi (Workshop), dan Tahap Implementasi (Pendampingan) program utama.
+
+- RAB ini hanya mencakup fase penyiapan dokumen (16 pekan pertama). RAB terpisah akan diperlukan untuk Tahap Inspirasi (Webinar), Tahap Kapasitasi (Workshop), dan Tahap Implementasi (Pendampingan) program utama.
