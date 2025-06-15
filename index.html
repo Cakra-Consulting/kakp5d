@@ -242,28 +242,57 @@
       top: 0;
     }
 
-    /* Mobile-specific line spacing fixes */
-    @media (max-width: 768px) {
-      h1 {
-        padding: 1rem 0.5rem;
-        /* Increased vertical padding */
-        line-height: 1.5;
-        /* More space between wrapped lines */
-      }
+/* Mobile-specific line spacing fixes */
+@media (max-width: 768px) {
+  /* Navigation enhancements */
+  #top-nav {
+    padding: 8px 0; /* Reduced vertical padding */
+    white-space: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+  
+  #top-nav a {
+    font-size: 1.3rem; /* Increased from 1.1rem */
+    padding: 10px 15px; /* Larger touch targets */
+    margin: 0 8px; /* Reduced margin */
+  }
 
-      h2 {
-        padding: 0.8rem 0.8rem;
-        line-height: 1.45;
-        margin-bottom: 1rem;
-        /* Added space below */
-      }
+  /* Heading adjustments */
+  h1 {
+    padding: 1.2rem 0.5rem; /* Slightly more padding */
+    line-height: 1.5;
+  }
 
-      h3 {
-        padding-bottom: 0.7rem;
-        /* Prevents text cramming */
-        line-height: 1.4;
-      }
-    }
+  h2 {
+    padding: 0.8rem 0.8rem;
+    line-height: 1.45;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    padding-bottom: 0.7rem;
+    line-height: 1.4;
+  }
+
+  h4 {
+    font-size: 1.3rem !important; /* Increased from 1.2rem */
+    padding-left: 1.2rem; /* Adjusted padding */
+    line-height: 1.5;
+  }
+  
+  h5 {
+    font-size: 1.2rem !important; /* Increased from 1.1rem */
+    padding-left: 1.2rem; /* Adjusted padding */
+    line-height: 1.5;
+  }
+  
+  h6 {
+    font-size: 1.1rem !important; /* Increased from 1rem */
+    padding-left: 1.2rem; /* Adjusted padding */
+    line-height: 1.5;
+  }
+}
 
     table {
       border-collapse: collapse;
