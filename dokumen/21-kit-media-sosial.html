@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>21-kit-media-sosial.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="kit-media-sosial-akselerator-bisnis-komunitas-desa">Kit Media Sosial: Akselerator Bisnis Komunitas Desa</h1>
+<h2 id="%F0%9F%93%B1-strategi-platform">📱 Strategi Platform</h2>
+<ul>
+<li><strong>Instagram</strong>: Konten visual, story, reel</li>
+<li><strong>Facebook</strong>: Postingan panjang, acara, grup komunitas</li>
+<li><strong>Twitter</strong>: Pembaruan cepat, berita, percakapan hashtag</li>
+<li><strong>TikTok</strong>: Konten edukasi/pendek format reel</li>
+</ul>
+<h2 id="pilar-konten">Pilar Konten</h2>
+<ol>
+<li><strong>Edukasi</strong>: Tips pengembangan ekonomi desa</li>
+<li><strong>Inspirasi</strong>: Kisah sukses desa binaan</li>
+<li><strong>Program</strong>: Pembaruan kegiatan &amp; pendaftaran</li>
+<li><strong>Kemitraan</strong>: Kolaborasi dengan pemangku kepentingan</li>
+</ol>
+<h2 id="template-postingan">Template Postingan</h2>
+<h3 id="template-1-pengumuman-program-igfb">Template 1: Pengumuman Program (IG/FB)</h3>
+<pre class="hljs"><code><div>📣 PROGRAM BARU! 📣
+Akselerator Bisnis Komunitas Desa resmi dibuka!
+
+Apa saja tahapannya?
+🌱 Webinar Inspirasi (1 hari)
+🛠 Lokakarya Kapasitasi (3 hari)
+👨‍🌾 Pendampingan (6 bulan)
+
+Desa bisa pilih ikut satu, dua, atau ketiga tahap!
+
+Manfaat:
+✅ Peningkatan kapasitas SDM
+✅ Akses jaringan mitra
+✅ Pendampingan hingga usaha operasional
+
+👉 Segera daftar: cakrakonsulting.id/akselerator-desa
+🗓️ Pendaftaran ditutup 30 Juli 2025
+
+#AkseleratorDesa #EkonomiDesa #BUMDes
+</div></code></pre>
+<h3 id="template-2-testimonial-ig-story">Template 2: Testimonial (IG Story)</h3>
+<pre class="hljs"><code><div>[Foto kepala desa tersenyum]
+
+&quot;Berkat program ini, desa kami bisa mengemas madu hutan jadi produk premium yang laku sampai kota besar!&quot;
+
+- Kades Sinta, Desa Harapan Jaya
+
+⬇️ Geser untuk info program
+[Panah bawah] → [Link program]
+</div></code></pre>
+<h3 id="template-3-edukasi-twitter-thread">Template 3: Edukasi (Twitter Thread)</h3>
+<pre class="hljs"><code><div>🧵 Bagaimana Memulai Usaha Desa? (Thread)
+
+1/ Identifikasi Potensi Unggulan
+• Sumber daya alam
+• Keterampilan warga
+• Budaya lokal
+#EkonomiDesa
+
+2/ Susun Business Model Canvas
+• Proposisi nilai
+• Segmen pelanggan
+• Aliran pendapatan
+#BUMDes
+
+3/ Cari Mitra Strategis
+• Pemerintah daerah
+• Perusahaan (CSR)
+• Lembaga pendamping
+#KemitraanDesa
+
+Lengkapnya: [Link artikel blog]
+</div></code></pre>
+<h3 id="template-4-pengingat-acara-fbig">Template 4: Pengingat Acara (FB/IG)</h3>
+<pre class="hljs"><code><div>⏰ INGAT! Besok Webinar Gratis ⏰
+
+&quot;Sukseskan Dana Desa dengan 3 Langkah Praktis&quot;
+
+📅 Kamis, 10 Juli 2025
+🕒 13.00-15.00 WIB
+📍 Online via Zoom
+
+Pembicara:
+• Pakar Pengelolaan Dana Desa
+• Praktisi BUMDes Sukses
+• Tim Cakra Consulting
+
+Fasilitas:
+🎁 E-sertifikat
+📚 Materi digital
+
+Daftar gratis: cakrakonsulting.id/webinar-dana-desa
+
+#WebinarDesa #DanaDesa #BUMDes
+</div></code></pre>
+<h2 id="panduan-visual">Panduan Visual</h2>
+<ul>
+<li><strong>Palet Warna</strong>:
+<ul>
+<li>Hijau (#2E7D32) - Pertumbuhan</li>
+<li>Biru (#1A3A8F) - Profesionalisme</li>
+<li>Kuning (#F9A825) - Energi</li>
+</ul>
+</li>
+<li><strong>Font</strong>: Montserrat (judul), Open Sans (teks)</li>
+<li><strong>Foto</strong>: Aktivitas desa asli, wajah ceria, proses produksi</li>
+<li><strong>Format Konten</strong>:
+<ul>
+<li>Infografis minimalis</li>
+<li>Kartu kutipan</li>
+<li>Video pendek (&lt;60 detik)</li>
+</ul>
+</li>
+</ul>
+<h2 id="contoh-kalender-konten-1-minggu">Contoh Kalender Konten (1 Minggu)</h2>
+<table>
+<thead>
+<tr>
+<th>Hari</th>
+<th>Instagram</th>
+<th>Facebook</th>
+<th>Twitter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Senin</td>
+<td>Infografis &quot;5 Potensi Ekonomi Desa&quot;</td>
+<td>Artikel panjang potensi desa</td>
+<td>Kuis &quot;Potensi Desa-mu&quot;</td>
+</tr>
+<tr>
+<td>Selasa</td>
+<td>Reel: Proses produksi desa binaan</td>
+<td>Live Q&amp;A dengan ahli</td>
+<td>Thread tips pemetaan potensi</td>
+</tr>
+<tr>
+<td>Rabu</td>
+<td>Testimonial Kades</td>
+<td>Pengingat acara webinar</td>
+<td>Kutipan inspirasi</td>
+</tr>
+<tr>
+<td>Kamis</td>
+<td>Dokumentasi webinar</td>
+<td>Ringkasan pasca-webinar</td>
+<td>Polling topik lokakarya</td>
+</tr>
+<tr>
+<td>Jumat</td>
+<td>IG Story: Trivia ekonomi desa</td>
+<td>Foto tim pendamping</td>
+<td>Info pendaftaran</td>
+</tr>
+<tr>
+<td>Sabtu</td>
+<td>UGC desa peserta</td>
+<td>Kisah sukses desa</td>
+<td>Retweet mitra</td>
+</tr>
+<tr>
+<td>Minggu</td>
+<td>Inspirasi desa internasional</td>
+<td>Artikel ringan</td>
+<td>Interaksi dengan hashtag</td>
+</tr>
+</tbody>
+</table>
+<h2 id="strategi-hashtag">Strategi Hashtag</h2>
+<ul>
+<li>Primer:
+<code>#AkseleratorDesa</code> <code>#EkonomiDesa</code> <code>#BUMDes</code></li>
+<li>Sekunder:
+<code>#DesaMandiri</code> <code>#UMKMDesa</code> <code>#PemberdayaanDesa</code></li>
+<li>Pencarian:
+<code>#DanaDesa</code> <code>#PelatihanDesa</code> <code>#KonsultanDesa</code></li>
+</ul>
+<h2 id="tips-interaksi">Tips Interaksi</h2>
+<ol>
+<li>Gunakan fitur interaktif (jajak pendapat, kuis, tanya jawab)</li>
+<li>Repost konten desa peserta (konten pengguna)</li>
+<li>Tanggapi komentar dalam 2 jam</li>
+<li>Kolaborasi dengan influencer pedesaan</li>
+<li>Pantau hashtag &amp; ikuti percakapan</li>
+</ol>
+<p><em>Semua template bisa disesuaikan dengan kebutuhan spesifik platform</em></p>
+
+</body>
+</html>

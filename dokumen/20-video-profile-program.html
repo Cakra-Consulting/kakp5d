@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>20-video-profile-program.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="video-profile-program-akselerator-bisnis-komunitas-desa">Video Profile Program: Akselerator Bisnis Komunitas Desa</h1>
+<h2 id="scene-1-opening-000-015">Scene 1: Opening (0:00-0:15)</h2>
+<ul>
+<li><strong>Visual</strong>: Pengambilan gambar drone atas pemandangan desa Indonesia yang indah (sawah, rumah tradisional)</li>
+<li><strong>Narration</strong>: &quot;Indonesia memiliki lebih dari 74.000 desa dengan potensi ekonomi luar biasa...&quot;</li>
+<li><strong>Text Overlay</strong>: &quot;Akselerator Bisnis Komunitas Desa&quot;<br>
+&quot;Wujudkan Potensi Ekonomi Lokal&quot;</li>
+</ul>
+<h2 id="scene-2-problem-statement-015-030">Scene 2: Problem Statement (0:15-0:30)</h2>
+<ul>
+<li><strong>Visual</strong>: Montase tantangan (petani melihat hasil panen tidak terjual, bengkel kosong, warga berdiskusi)</li>
+<li><strong>Narration</strong>: &quot;Tapi banyak potensi ini belum tergarap optimal karena keterbatasan pengetahuan, akses pasar, dan pendampingan teknis...&quot;</li>
+<li><strong>Text Overlay</strong>: Tantangan: Pengetahuan · Pasar · Modal · Teknologi</li>
+</ul>
+<h2 id="scene-3-program-introduction-030-045">Scene 3: Program Introduction (0:30-0:45)</h2>
+<ul>
+<li><strong>Visual</strong>: Cakra Consulting logo, team meeting, desa workshop footage</li>
+<li><strong>Narration</strong>: &quot;Cakra Consulting menghadirkan solusi: Program Akselerator Bisnis Komunitas Desa dengan pendekatan 3 tahap modular...&quot;</li>
+<li><strong>Animation</strong>: 3 circles appear: Inspirasi → Kapasitasi → Implementasi</li>
+</ul>
+<h2 id="scene-4-stage-1---inspirasi-045-115">Scene 4: Stage 1 - Inspirasi (0:45-1:15)</h2>
+<ul>
+<li><strong>Visual</strong>: Webinar footage, speakers presenting, engaged audience</li>
+<li><strong>Narration</strong>: &quot;Tahap Inspirasi: Webinar 1 hari dengan praktisi sukses dari tiga sektor unggulan...&quot;</li>
+<li><strong>Testimonial (text overlay)</strong>: &quot;Saya dapat ide pengembangan desa wisata dari sini&quot; - Kades Budi, Jawa Tengah</li>
+<li><strong>Graphic</strong>: Icons: 🏞️ Desa Wisata · 🌱 Agribisnis · 🎨 UMKM Kreatif</li>
+</ul>
+<h2 id="scene-5-stage-2---lokakarya-kapasitasi-115-145">Scene 5: Stage 2 - Lokakarya Kapasitasi (1:15-1:45)</h2>
+<ul>
+<li><strong>Visual</strong>: Workshop activities, participants working on BMC, facilitators assisting</li>
+<li><strong>Narration</strong>: &quot;Tahap Kapasitasi: Lokakarya 3 hari untuk menyusun rencana usaha konkret dengan Business Model Canvas dan proyeksi keuangan...&quot;</li>
+<li><strong>Animation</strong>: Document filling with: Pemetaan Potensi · Rencana Bisnis · Proyeksi Keuangan</li>
+</ul>
+<h2 id="scene-6-stage-3---pendampingan-implementasi-145-230">Scene 6: Stage 3 - Pendampingan Implementasi (1:45-2:30)</h2>
+<ul>
+<li><strong>Visual</strong>: Pendamping in village, product development, market activities</li>
+<li><strong>Narration</strong>: &quot;Tahap Implementasi: Pendampingan 6 bulan hingga usaha desa benar-benar operasional di bidang legal, produksi, pemasaran...&quot;</li>
+<li><strong>Case Study</strong>: Potongan cepat kisah sukses (produk kemasan, aktivitas wisata, pemasaran digital)</li>
+</ul>
+<h2 id="scene-7-manfaat-230-245">Scene 7: Manfaat (2:30-2:45)</h2>
+<ul>
+<li><strong>Visual</strong>: Infographic with benefits</li>
+<li><strong>Narration</strong>: &quot;Manfaat untuk desa: Peningkatan kapasitas SDM, jaringan kolaborasi, dan yang terpenting - peningkatan pendapatan desa dan masyarakat!&quot;</li>
+<li><strong>Text Overlay</strong>:
+<ul>
+<li>+20% omset usaha</li>
+<li>+15% PADes</li>
+<li>100% usaha operasional</li>
+</ul>
+</li>
+</ul>
+<h2 id="scene-8-ajakan-bertindak-245-300">Scene 8: Ajakan Bertindak (2:45-3:00)</h2>
+<ul>
+<li><strong>Visual</strong>: Antarmuka website, formulir pendaftaran, tim menjawab telepon</li>
+<li><strong>Narration</strong>: &quot;Bergabunglah sekarang! Kunjungi cakrakonsulting.id/akselerator-desa atau scan QR code ini&quot;</li>
+<li><strong>Animation</strong>: QR code slides in with website URL</li>
+</ul>
+<h2 id="scene-9-penutup-300-315">Scene 9: Penutup (3:00-3:15)</h2>
+<ul>
+<li><strong>Visual</strong>: Montase warga desa bahagia dengan produk, foto tim</li>
+<li><strong>Narration</strong>: &quot;Bersama Cakra Consulting, wujudkan desa mandiri dan sejahtera melalui potensi ekonomi lokal!&quot;</li>
+<li><strong>Closing Text</strong>:
+&quot;Akselerator Bisnis Komunitas Desa&quot;<br>
+&quot;Cakra Consulting&quot;<br>
+&quot;<a href="mailto:info@cakrakonsulting.id">info@cakrakonsulting.id</a> | (021) 1234-5678&quot;</li>
+</ul>
+<h2 id="catatan-audio">Catatan Audio</h2>
+<ul>
+<li>Musik latar: Musik tradisional-instrumental yang membangkitkan semangat</li>
+<li>Suara narator: Hangat, membangkitkan semangat (pria/wanita)</li>
+<li>SFX: Efek suara alami desa pada transisi</li>
+</ul>
+<h2 id="durasi-total-315-menit">Durasi Total: 3:15 menit</h2>
+
+</body>
+</html>
