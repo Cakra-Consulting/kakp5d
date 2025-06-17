@@ -974,14 +974,12 @@ Untuk memulai pemasaran dan persiapan pilot project program pengembangan potensi
 
 ### 4. Dokumen Persiapan Pilot Project
 
-Berikut tabel untuk dokumen persiapan pilot project:
-
 | Dokumen | Rincian |
-|--------|---------|
+|---------|---------|
 | **1. Kriteria & Profil Desa Pilot** | Dokumen panduan pemilihan desa:<br><br>1. Kriteria seleksi desa pilot<br><br>2. Metode assessment dan scoring<br><br>3. Template profil desa pilot<br><br>4. Indikator baseline dan target capaian |
 | **2. Rencana Implementasi Pilot** | Dokumen perencanaan pilot project:<br><br>1. Timeline detail pelaksanaan pilot<br><br>2. Pembagian peran dan tanggung jawab tim<br><br>3. Alokasi sumber daya untuk pilot<br><br>4. Protokol penanganan situasi khusus |
 | **3. Instrumen Monitoring Pilot** | Tools untuk monitoring pilot project:<br><br>1. Form monitoring berkala<br><br>2. Protokol dokumentasi proses<br><br>3. Template laporan kemajuan<br><br>4. Instrumen pengukuran dampak awal |
-| **4. Rencana Evaluasi dan Scaling** | Dokumen strategis pasca-pilot,:<br><br>1. Framework evaluasi pilot project<br><br>2. Kriteria keberhasilan pilot<br><br>3. Strategi perbaikan program<br><br>4. Rencana scaling up pasca-pilot |
+| **4. Rencana Evaluasi dan Scaling** | Dokumen strategis pasca-pilot:<br><br>1. Framework evaluasi pilot project<br><br>2. Kriteria keberhasilan pilot<br><br>3. Strategi perbaikan program<br><br>4. Rencana scaling up pasca-pilot |
 
 ### 5. Dokumen Penggalangan Dukungan
 
