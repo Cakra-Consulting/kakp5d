@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi - Akselerator Bisnis Komunitas Desa</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #0ea5e9;
+            --accent: #8b5cf6;
+            --light: #f8fafc;
+            --dark: #0f172a;
+            --success: #10b981;
+            --error: #ef4444;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f1f5f9;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .logo {
+            width: 120px;
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            color: var(--primary);
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .progress-bar {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        
+        .progress-bar::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: #e2e8f0;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+        
+        .progress-step {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .progress-step.active {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .form-section {
+            display: none;
+        }
+        
+        .form-section.active {
+            display: block;
+            animation: fadeIn 0.3s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        
+        button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background: #1d4ed8;
+        }
+        
+        .btn-secondary {
+            background: #64748b;
+        }
+        
+        .btn-secondary:hover {
+            background: #475569;
+        }
+        
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+        
+        .program-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .program-card {
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .program-card:hover, .program-card.selected {
+            border-color: var(--primary);
+            box-shadow: 0 4px 6px rgba(37, 99, 235, 0.1);
+        }
+        
+        .program-card h3 {
+            margin-bottom: 0.5rem;
+            color: var(--primary);
+        }
+        
+        .program-card.selected {
+            background-color: #eff6ff;
+        }
+        
+        .bank-info {
+            background: #f0f9ff;
+            border-left: 4px solid var(--primary);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Akselerator Bisnis Komunitas Desa</h1>
+            <p>Sistem Pendaftaran Online Terintegrasi</p>
+        </header>
+
+        <div class="progress-bar">
+            <div class="progress-step active">1</div>
+            <div class="progress-step">2</div>
+            <div class="progress-step">3</div>
+            <div class="progress-step">4</div>
+            <div class="progress-step">5</div>
+        </div>
+
+        <!-- Program Selection -->
+        <div id="section-program" class="form-section active">
+            <h2>Pilih Program</h2>
+            <div class="program-cards">
+                <div class="program-card">
+                    <h3>Inspirasi (Webinar)</h3>
+                    <p>Sesi inspiratif dengan praktisi sukses</p>
+                    <p><strong>Biaya:</strong> Rp XXX.XXX</p>
+                    <p><strong>Durasi:</strong> 1 Hari</p>
+                </div>
+                <div class="program-card selected">
+                    <h3>Kapasitasi (Workshop)</h3>
+                    <p>Pelatihan perencanaan usaha</p>
+                    <p><strong>Biaya:</strong> Rp X.XXX.XXX/tim</p>
+                    <p><strong>Durasi:</strong> 3 Hari</p>
+                </div>
+                <div class="program-card">
+                    <h3>Implementasi (Pendampingan)</h3>
+                    <p>Pendampingan teknis 6 bulan</p>
+                    <p><strong>Biaya:</strong> Rp XX.XXX.XXX/desa</p>
+                    <p><strong>Durasi:</strong> 6 Bulan</p>
+                </div>
+            </div>
+            <div class="button-group">
+                <div></div>
+                <button onclick="showSection('section-personal')">Lanjut</button>
+            </div>
+        </div>
+
+        <!-- Personal Information -->
+        <div id="section-personal" class="form-section">
+            <h2>Data Pribadi</h2>
+            <div class="form-group">
+                <label for="full-name">Nama Lengkap</label>
+                <input type="text" id="full-name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Nomor Telepon</label>
+                <input type="tel" id="phone" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="desa">Desa/Kelurahan</label>
+                <input type="text" id="desa" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="kecamatan">Kecamatan</label>
+                <input type="text" id="kecamatan" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="kabupaten">Kabupaten/Kota</label>
+                <input type="text" id="kabupaten" required>
+            </div>
+            
+            <div class="button-group">
+                <button class="btn-secondary" onclick="showSection('section-program')">Kembali</button>
+                <button onclick="showSection('section-documents')">Lanjut</button>
+            </div>
+        </div>
+
+        <!-- Documents -->
+        <div id="section-documents" class="form-section">
+            <h2>Dokumen Pendukung</h2>
+            <div class="form-group">
+                <label>KTP (PDF/Image)</label>
+                <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+            </div>
+            
+            <div class="form-group">
+                <label>Surat Rekomendasi Desa (PDF)</label>
+                <input type="file" accept=".pdf">
+            </div>
+            
+            <div class="form-group">
+                <label>Proposal Singkat (Opsional)</label>
+                <input type="file" accept=".pdf,.doc,.docx">
+            </div>
+            
+            <div class="button-group">
+                <button class="btn-secondary" onclick="showSection('section-personal')">Kembali</button>
+                <button onclick="showSection('section-payment')">Lanjut</button>
+            </div>
+        </div>
+
+        <!-- Payment Section -->
+        <div id="section-payment" class="form-section">
+            <h2>Informasi Pembayaran</h2>
+            
+            <div class="bank-info">
+                <h3>Transfer Bank Manual</h3>
+                <p><strong>Bank:</strong> Bank Negara Indonesia (BNI)</p>
+                <p><strong>Nomor Rekening:</strong> 123 456 7890</p>
+                <p><strong>Atas Nama:</strong> Cakra Consulting</p>
+                <p><strong>Jumlah:</strong> Rp 500.000 (Workshop)</p>
+                <p><strong>Catatan:</strong> Gunakan kode unik pada referensi pembayaran</p>
+            </div>
+            
+            <div class="form-group">
+                <label for="ref-number">Nomor Referensi Pembayaran</label>
+                <input type="text" id="ref-number" placeholder="Kode unik dari bank" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Upload Bukti Transfer</label>
+                <input type="file" accept=".jpg,.jpeg,.png,.pdf" required>
+            </div>
+            
+            <div class="button-group">
+                <button class="btn-secondary" onclick="showSection('section-documents')">Kembali</button>
+                <button onclick="showSection('section-confirmation')">Lanjut</button>
+            </div>
+        </div>
+
+        <!-- Confirmation -->
+        <div id="section-confirmation" class="form-section">
+            <h2>Konfirmasi Pendaftaran</h2>
+            <div style="background: #f8fafc; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--primary); margin-bottom: 1rem;">Ringkasan Pendaftaran</h3>
+                <p><strong>Program:</strong> Kapasitasi (Workshop)</p>
+                <p><strong>Nama:</strong> [Nama Lengkap]</p>
+                <p><strong>Email:</strong> [email@contoh.com]</p>
+                <p><strong>Desa:</strong> [Nama Desa], [Kecamatan], [Kabupaten]</p>
+                <p><strong>Referensi Pembayaran:</strong> [Nomor Referensi]</p>
+            </div>
+            
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" required>
+                    Saya menyetujui syarat dan ketentuan yang berlaku
+                </label>
+            </div>
+            
+            <div class="button-group">
+                <button class="btn-secondary" onclick="showSection('section-payment')">Kembali</button>
+                <button onclick="alert('Pendaftaran berhasil dikirim!')">Kirim Pendaftaran</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            // Update progress steps based on current section
+            const sections = [
+                'section-program', 
+                'section-personal', 
+                'section-documents',
+                'section-payment',
+                'section-confirmation'
+            ];
+            
+            const currentIndex = sections.indexOf(sectionId);
+            
+            // Update progress bar
+            document.querySelectorAll('.progress-step').forEach((step, index) => {
+                if (index <= currentIndex) {
+                    step.classList.add('active');
+                } else {
+                    step.classList.remove('active');
+                }
+            });
+            
+            // Hide all sections
+            document.querySelectorAll('.form-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Show selected section
+            document.getElementById(sectionId).classList.add('active');
+        }
+        
+        // Add card selection functionality
+        document.querySelectorAll('.program-card').forEach(card => {
+            card.addEventListener('click', function() {
+                document.querySelectorAll('.program-card').forEach(c => {
+                    c.classList.remove('selected');
+                });
+                this.classList.add('selected');
+            });
+        });
+    </script>
+</body>
+</html>
