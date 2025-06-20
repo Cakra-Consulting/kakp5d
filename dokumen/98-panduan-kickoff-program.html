@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>98-panduan-kickoff-program.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="panduan-kickoff-program-pendampingan-desa">Panduan Kickoff Program Pendampingan Desa</h1>
+<h2 id="1-tujuan-dan-sasaran">1. Tujuan dan Sasaran</h2>
+<ul>
+<li>Membangun komitmen bersama antara tim desa dan pendamping</li>
+<li>Menyepakati rencana implementasi program</li>
+<li>Menyiapkan sistem monitoring dan evaluasi</li>
+<li>Membentuk kanal komunikasi efektif</li>
+</ul>
+<h2 id="2-peserta">2. Peserta</h2>
+<ul>
+<li>Wajib hadir:
+<ul>
+<li>Kepala desa</li>
+<li>Pengurus BUMDes/lembaga ekonomi</li>
+<li>Tim pengelola program (5-7 orang)</li>
+</ul>
+</li>
+<li>Tim pendamping Cakra Consulting</li>
+<li>Undangan khusus (bila ada):
+<ul>
+<li>Perwakilan dinas terkait</li>
+<li>Perwakilan mitra CSR</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-agenda-kegiatan">3. Agenda Kegiatan</h2>
+<h3 id="hari-1-penyamaan-persepsi">Hari 1: Penyamaan Persepsi</h3>
+<table>
+<thead>
+<tr>
+<th>Waktu</th>
+<th>Aktivitas</th>
+<th>Penanggung Jawab</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>09.00-10.00</td>
+<td>Pembukaan &amp; perkenalan</td>
+<td>Koordinator</td>
+</tr>
+<tr>
+<td>10.00-12.00</td>
+<td>Paparan program &amp; ekspektasi</td>
+<td>Manajer Program</td>
+</tr>
+<tr>
+<td>13.00-15.00</td>
+<td>Diskusi kebutuhan spesifik desa</td>
+<td>Fasilitator</td>
+</tr>
+<tr>
+<td>15.00-16.00</td>
+<td>Penyusunan rencana aksi awal</td>
+<td>Tim desa &amp; pendamping</td>
+</tr>
+</tbody>
+</table>
+<h3 id="hari-2-pelatihan-teknis">Hari 2: Pelatihan Teknis</h3>
+<table>
+<thead>
+<tr>
+<th>Waktu</th>
+<th>Aktivitas</th>
+<th>Penanggung Jawab</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>09.00-12.00</td>
+<td>Pelatihan manajemen proyek</td>
+<td>Ahli Pengembangan Usaha</td>
+</tr>
+<tr>
+<td>13.00-15.00</td>
+<td>Workshop sistem monitoring</td>
+<td>Ahli Monitoring</td>
+</tr>
+<tr>
+<td>15.00-16.00</td>
+<td>Simulasi pelaporan progres</td>
+<td>Tim pendamping</td>
+</tr>
+</tbody>
+</table>
+<h3 id="hari-3-komitmen-bersama">Hari 3: Komitmen Bersama</h3>
+<table>
+<thead>
+<tr>
+<th>Waktu</th>
+<th>Aktivitas</th>
+<th>Penanggung Jawab</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>09.00-10.30</td>
+<td>Finalisasi rencana implementasi</td>
+<td>Tim desa</td>
+</tr>
+<tr>
+<td>10.30-12.00</td>
+<td>Penandatanganan komitmen bersama</td>
+<td>Semua pihak</td>
+</tr>
+<tr>
+<td>13.00-14.00</td>
+<td>Pembentukan kanal komunikasi</td>
+<td>Koordinator TI</td>
+</tr>
+<tr>
+<td>14.00-15.00</td>
+<td>Penutupan &amp; foto bersama</td>
+<td>Manajer Program</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-persiapan">4. Persiapan</h2>
+<h3 id="dokumen-yang-disiapkan-desa">Dokumen yang Disiapkan Desa</h3>
+<ul>
+<li>Profil desa lengkap</li>
+<li>Dokumen perencanaan usaha</li>
+<li>Rencana anggaran desa</li>
+<li>Data potensi ekonomi terkini</li>
+</ul>
+<h3 id="perlengkapan-yang-disiapkan-penyelenggara">Perlengkapan yang Disiapkan Penyelenggara</h3>
+<ul>
+<li>Modul pelatihan</li>
+<li>Template rencana aksi</li>
+<li>Sistem monitoring online</li>
+<li>Perangkat penandatanganan digital</li>
+</ul>
+<h2 id="5-peran-dan-tanggung-jawab">5. Peran dan Tanggung Jawab</h2>
+<h3 id="tim-desa">Tim Desa</h3>
+<table>
+<thead>
+<tr>
+<th>Peran</th>
+<th>Tanggung Jawab</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Koordinator</td>
+<td>Koordinasi seluruh kegiatan</td>
+</tr>
+<tr>
+<td>Sekretaris</td>
+<td>Dokumentasi &amp; administrasi</td>
+</tr>
+<tr>
+<td>Bendahara</td>
+<td>Pengelolaan keuangan</td>
+</tr>
+<tr>
+<td>Div. Produksi</td>
+<td>Pengembangan produk</td>
+</tr>
+<tr>
+<td>Div. Pemasaran</td>
+<td>Promosi &amp; penjualan</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tim-pendamping">Tim Pendamping</h3>
+<table>
+<thead>
+<tr>
+<th>Peran</th>
+<th>Tanggung Jawab</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pendamping Utama</td>
+<td>Koordinasi pendampingan</td>
+</tr>
+<tr>
+<td>Ahli Teknis</td>
+<td>Konsultasi produk &amp; operasional</td>
+</tr>
+<tr>
+<td>Ahli Pemasaran</td>
+<td>Bimbingan strategi pemasaran</td>
+</tr>
+<tr>
+<td>Ahli Keuangan</td>
+<td>Pendampingan keuangan usaha</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-alokasi-sumber-daya">6. Alokasi Sumber Daya</h2>
+<h3 id="anggaran-kickoff">Anggaran Kickoff</h3>
+<table>
+<thead>
+<tr>
+<th>Komponen</th>
+<th>Alokasi (Rp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Akomodasi &amp; konsumsi</td>
+<td>XX.XXX.XXX</td>
+</tr>
+<tr>
+<td>Materi pelatihan</td>
+<td>X.XXX.XXX</td>
+</tr>
+<tr>
+<td>Perangkat pendukung</td>
+<td>X.XXX.XXX</td>
+</tr>
+<tr>
+<td>Dokumentasi</td>
+<td>X.XXX.XXX</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>XX.XXX.XXX</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="7-monitoring-pasca-kickoff">7. Monitoring Pasca-Kickoff</h2>
+<ul>
+<li>Minggu 1: Verifikasi implementasi rencana aksi</li>
+<li>Bulan 1: Evaluasi pencapaian milestone pertama</li>
+<li>Mekanisme:
+<ul>
+<li>Laporan mingguan via aplikasi</li>
+<li>Konsultasi daring mingguan</li>
+<li>Kunjungan bulanan tim pendamping</li>
+</ul>
+</li>
+</ul>
+
+</body>
+</html>

@@ -927,7 +927,7 @@ Dilaksanakan pekan 13 sampai 16
 1. Pengembangan program khusus
 
    a. "Desa Digital" - paket transformasi teknologi
-   
+
    b. "Desa Ekspor" - pendampingan sertifikasi internasional
 
 2. Replikasi model ke provinsi lain

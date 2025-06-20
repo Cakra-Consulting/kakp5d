@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Monitoring Desa - Cakra Consulting</title>
+    <style>
+        :root {
+            --primary: #2c7a7b;
+            --secondary: #e6fffa;
+            --accent: #319795;
+            --text: #2d3748;
+            --light: #f7fafc;
+            --success: #48bb78;
+            --warning: #ed8936;
+            --danger: #e53e3e;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f0f8ff;
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            justify-content: space-between;
+            width: 100%;
+        }
+        
+        .header-menu {
+            margin-left: auto;
+        }
+        
+        .logo {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .app-title {
+            margin-left: 10px;
+            font-size: 1.2rem;
+        }
+        
+        main {
+            padding: 20px 0;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+        .card-header {
+            background-color: var(--secondary);
+            padding: 15px 20px;
+            border-bottom: 1px solid #e2e8f0;
+            font-weight: 600;
+            color: var(--primary);
+        }
+        
+        .card-body {
+            padding: 20px;
+        }
+        
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-card {
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin: 10px 0;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: #718096;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        .btn-block {
+            display: block;
+            width: 100%;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cbd5e0;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            border-bottom: 1px solid #e2e8f0;
+            margin-bottom: 20px;
+        }
+        
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+        }
+        
+        .tab.active {
+            border-bottom: 3px solid var(--primary);
+            color: var(--primary);
+            font-weight: 500;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .reward-status {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .reward-level {
+            padding: 15px;
+        }
+        
+        .reward-badge {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .bronze { background-color: #cd7f32; color: white; }
+        .silver { background-color: #c0c0c0; color: white; }
+        .gold { background-color: #ffd700; color: white; }
+        
+        .offline-status {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+            font-size: 0.9rem;
+            color: #718096;
+        }
+        
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            overflow-y: auto;
+        }
+        
+        .modal-content {
+            background-color: white;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: black;
+        }
+        
+        .guide-steps {
+            margin: 20px 0;
+        }
+        
+        .step {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .step h3 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+        
+        .contact-support {
+            background-color: var(--secondary);
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-container {
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .reward-status {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo-container">
+        <div class="logo">Cakra</div>
+        <div class="app-title">Sistem Monitoring Desa</div>
+        <div class="header-menu">
+            <button id="guideBtn" class="btn">Panduan</button>
+        </div>
+    </div>
+</header>
+
+    <div class="container">
+        <main>
+            <div class="card">
+                <div class="card-header">
+                    Dashboard Monitoring
+                </div>
+                <div class="card-body">
+                    <div class="stats-container">
+                        <div class="stat-card">
+                            <div class="stat-label">Pengunjung</div>
+                            <div class="stat-value">1.250</div>
+                            <div class="stat-label">Bulan Ini</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Penjualan</div>
+                            <div class="stat-value">X.XXX</div>
+                            <div class="stat-label">Total Omset</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Produk</div>
+                            <div class="stat-value">42</div>
+                            <div class="stat-label">Jumlah Produk</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Reward</div>
+                            <div class="stat-value">Silver</div>
+                            <div class="stat-label">Level Saat Ini</div>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-tabs">
+                        <div class="tab active" data-tab="dashboard">Dashboard</div>
+                        <div class="tab" data-tab="input">Input Data</div>
+                        <div class="tab" data-tab="rewards">Reward</div>
+                    </div>
+                    
+                    <div class="tab-content active" id="dashboard">
+                        <div class="card">
+                            <div class="card-header">
+                                Grafik Perkembangan Bulanan
+                            </div>
+                            <div class="card-body">
+                                <div style="height: 300px; background-color: #f8f9fa; display: flex; align-items: center; justify-content: center; color: #a0aec0;">
+                                    [Area Grafik Statistik]
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="input">
+                        <div class="card">
+                            <div class="card-header">
+                                Form Input Data Offline
+                            </div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="dataType">Jenis Data</label>
+                                    <select id="dataType">
+                                        <option value="visitor">Pengunjung Wisata</option>
+                                        <option value="sales">Penjualan Produk</option>
+                                        <option value="production">Produksi</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="value">Nilai</label>
+                                    <input type="number" id="value" placeholder="Masukkan nilai">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="notes">Catatan</label>
+                                    <textarea id="notes" rows="3" placeholder="Tambahkan catatan jika perlu"></textarea>
+                                </div>
+                                
+                                <button class="btn btn-block">Simpan Data Offline</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="rewards">
+                        <div class="card">
+                            <div class="card-header">
+                                Status Reward
+                            </div>
+                            <div class="card-body">
+                                <div class="reward-status">
+                                    <div class="reward-level">
+                                        <div class="reward-badge bronze">50%</div>
+                                        <div>Bronze</div>
+                                    </div>
+                                    <div class="reward-level">
+                                        <div class="reward-badge silver">75%</div>
+                                        <div>Silver</div>
+                                    </div>
+                                    <div class="reward-level">
+                                        <div class="reward-badge gold">100%</div>
+                                        <div>Gold</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="progress-info">
+                                    <h4>Pencapaian Anda</h4>
+                                    <p>Anda saat ini berada di level <strong>Silver</strong> dengan pencapaian 85% milestone bulan ini.</p>
+                                    <p>Capai 100% untuk mendapatkan Reward Gold!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offline-status">
+                    Mode Offline - Data akan disinkronkan saat koneksi tersedia
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Panduan Modal -->
+    <div id="guideModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Panduan Penggunaan Sistem</h2>
+            <div class="guide-steps">
+                <div class="step">
+                    <h3>1. Input Data</h3>
+                    <p>Pilih tab "Input Data" dan isi form sesuai jenis data yang ingin dicatat. Data akan tersimpan secara offline.</p>
+                </div>
+                <div class="step">
+                    <h3>2. Sinkronisasi</h3>
+                    <p>Ketika koneksi internet tersedia, sistem akan otomatis menyinkronkan data ke server.</p>
+                </div>
+                <div class="step">
+                    <h3>3. Pantau Reward</h3>
+                    <p>Cek tab "Reward" untuk melihat tingkat pencapaian dan hadiah yang bisa Anda peroleh.</p>
+                </div>
+                <div class="step">
+                    <h3>4. Dashboard</h3>
+                    <p>Tab Dashboard menampilkan ringkasan perkembangan usaha Anda secara visual.</p>
+                </div>
+            </div>
+            <div class="contact-support">
+                <p><strong>Dukungan Teknis:</strong></p>
+                <p>Email: dukungan@cakradesa.id</p>
+                <p>WhatsApp: +62 812-3456-7890</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Tab navigation
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                
+                // Add active class to clicked tab
+                tab.classList.add('active');
+                
+                // Show corresponding content
+                const tabId = tab.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+        
+        // Panduan modal
+        const modal = document.getElementById("guideModal");
+        const btn = document.getElementById("guideBtn");
+        const span = document.getElementsByClassName("close")[0];
+        
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
