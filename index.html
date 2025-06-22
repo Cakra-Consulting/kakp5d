@@ -29,86 +29,6 @@
       background-color: #f8f8f8;
     }
 
-    #code-csp-warning {
-      position: fixed;
-      top: 0;
-      right: 0;
-      color: white;
-      margin: 16px;
-      text-align: center;
-      font-size: 12px;
-      font-family: sans-serif;
-      background-color: #444444;
-      cursor: pointer;
-      padding: 6px;
-      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-    }
-
-    #code-csp-warning:hover {
-      text-decoration: none;
-      background-color: #007acc;
-      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-    }
-
-    body.scrollBeyondLastLine {
-      margin-bottom: calc(100vh - 22px);
-    }
-
-    body.showEditorSelection .code-line {
-      position: relative;
-    }
-
-    body.showEditorSelection .code-active-line:before,
-    body.showEditorSelection .code-line:hover:before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: -12px;
-      height: 100%;
-    }
-
-    body.showEditorSelection li.code-active-line:before,
-    body.showEditorSelection li.code-line:hover:before {
-      left: -30px;
-    }
-
-    .vscode-light.showEditorSelection .code-active-line:before {
-      border-left: 3px solid rgba(0, 0, 0, 0.15);
-    }
-
-    .vscode-light.showEditorSelection .code-line:hover:before {
-      border-left: 3px solid rgba(0, 0, 0, 0.4);
-    }
-
-    .vscode-light.showEditorSelection .code-line .code-line:hover:before {
-      border-left: none;
-    }
-
-    .vscode-dark.showEditorSelection .code-active-line:before {
-      border-left: 3px solid rgba(255, 255, 255, 0.4);
-    }
-
-    .vscode-dark.showEditorSelection .code-line:hover:before {
-      border-left: 3px solid rgba(255, 255, 255, 0.6);
-    }
-
-    .vscode-dark.showEditorSelection .code-line .code-line:hover:before {
-      border-left: none;
-    }
-
-    .vscode-high-contrast.showEditorSelection .code-active-line:before {
-      border-left: 3px solid rgba(255, 160, 0, 0.7);
-    }
-
-    .vscode-high-contrast.showEditorSelection .code-line:hover:before {
-      border-left: 3px solid rgba(255, 160, 0, 1);
-    }
-
-    .vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
-      border-left: none;
-    }
-
     img {
       max-width: 100%;
       max-height: 100%;
@@ -367,70 +287,33 @@
 
     /** Theming */
 
-    .vscode-light pre {
-      background-color: rgba(220, 220, 220, 0.4);
-    }
+  /* Navbar Fixed */
+  #top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a3a8f;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
 
-    .vscode-dark pre {
-      background-color: rgba(10, 10, 10, 0.4);
-    }
+  #top-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
 
-    .vscode-high-contrast pre {
-      background-color: rgb(0, 0, 0);
-    }
-
-    .vscode-high-contrast h1 {
-      border-color: rgb(0, 0, 0);
-    }
-
-    .vscode-light table>thead>tr>th {
-      border-color: rgba(0, 0, 0, 0.69);
-    }
-
-    .vscode-dark table>thead>tr>th {
-      border-color: rgba(255, 255, 255, 0.69);
-    }
-
-    .vscode-light h1,
-    .vscode-light hr,
-    .vscode-light table>tbody>tr+tr>td {
-      border-color: rgba(0, 0, 0, 0.18);
-    }
-
-    .vscode-dark h1,
-    .vscode-dark hr,
-    .vscode-dark table>tbody>tr+tr>td {
-      border-color: rgba(255, 255, 255, 0.18);
-    }
-
-    /* Navbar Fixed */
-    #top-nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: #1a3a8f;
-      padding: 10px 0;
-      text-align: center;
-      z-index: 1000;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    }
-
-    #top-nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-      font-size: 1.1rem;
-      padding: 5px 10px;
-      border-radius: 4px;
-      transition: background-color 0.3s;
-    }
-
-    #top-nav a:hover {
-      background-color: rgba(255, 255, 255, 0.1);
-      text-decoration: none;
-    }
+  #top-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
   </style>
 
   <style>
